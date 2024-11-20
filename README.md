@@ -37,3 +37,7 @@ The Cornell Movie-Dialogs Corpus contains:
 ---
 
 This project provides a foundation for exploring the intersection of social networks and language in cinematic storytelling.
+
+
+Paper with rich features for the movie dialogues
+https://arxiv.org/pdf/2303.16618
