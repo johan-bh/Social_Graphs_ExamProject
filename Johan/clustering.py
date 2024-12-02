@@ -1,12 +1,15 @@
 import networkx as nx
 import pandas as pd
 from community import community_louvain
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 import collections
 import matplotlib.pyplot as plt
 import numpy as np
 from tqdm import tqdm
+import os
+from adjustText import adjust_text
+
+# Ensure the Figures directory exists
+os.makedirs('Figures', exist_ok=True)
 
 # Load dataset
 file_path = r"C:\Users\jbh\Desktop\Social_Graphs_ExamProject\Data\movie_casts_sample.csv"
@@ -18,7 +21,7 @@ print("Creating networks...")
 def create_actor_actor_network(cast_df):
     actor_network = nx.Graph()
     
-    # Group actors by movies, using actor_name
+    # Group actors by movies
     print("Creating actor-actor network...")
     movie_groups = cast_df.groupby('movie_title')['actor_name'].apply(list)
     
@@ -26,7 +29,7 @@ def create_actor_actor_network(cast_df):
     collaborations = {}
     
     for movie, actors in tqdm(movie_groups.items(), desc="Processing movies"):
-        # Remove any duplicates in case an actor plays multiple roles
+        # Remove duplicates
         actors = list(set(actors))
         for i, actor1 in enumerate(actors):
             for actor2 in actors[i + 1:]:
@@ -36,7 +39,7 @@ def create_actor_actor_network(cast_df):
                 else:
                     collaborations[pair] = 1
     
-    # Add edges with weights based on number of collaborations
+    # Add edges with weights
     for (actor1, actor2), weight in collaborations.items():
         actor_network.add_edge(actor1, actor2, weight=weight)
     
@@ -46,7 +49,7 @@ def create_actor_actor_network(cast_df):
 def create_movie_movie_network(cast_df):
     movie_network = nx.Graph()
     
-    # Group movies by actors, using actor_name
+    # Group movies by actors
     print("Creating movie-movie network...")
     actor_groups = cast_df.groupby('actor_name')['movie_title'].apply(list)
     
@@ -54,7 +57,7 @@ def create_movie_movie_network(cast_df):
     shared_actors = {}
     
     for actor, movies in tqdm(actor_groups.items(), desc="Processing actors"):
-        # Remove any duplicates
+        # Remove duplicates
         movies = list(set(movies))
         for i, movie1 in enumerate(movies):
             for movie2 in movies[i + 1:]:
@@ -64,7 +67,7 @@ def create_movie_movie_network(cast_df):
                 else:
                     shared_actors[pair] = 1
     
-    # Add edges with weights based on number of shared actors
+    # Add edges with weights
     for (movie1, movie2), weight in shared_actors.items():
         movie_network.add_edge(movie1, movie2, weight=weight)
     
@@ -81,88 +84,116 @@ def analyze_communities(G, name):
     print(f"\n{name} Community Detection Results:")
     print(f"Number of communities detected: {n_communities}")
     
-    # Print sizes of top 5 communities
-    print("\nTop 5 community sizes:")
-    for comm_id, size in sorted(community_sizes.items(), key=lambda x: x[1], reverse=True)[:5]:
+    # Get top N largest communities
+    top_n_communities = 5
+    top_communities = sorted(community_sizes.items(), key=lambda x: x[1], reverse=True)[:top_n_communities]
+    print(f"\nTop {top_n_communities} community sizes:")
+    for comm_id, size in top_communities:
         print(f"Community {comm_id}: {size} nodes")
-        nodes_in_comm = [node for node, comm in communities.items() if comm == comm_id]
-        print(f"Example nodes: {', '.join(nodes_in_comm[:3])}")
     
     # Calculate modularity
     modularity = community_louvain.modularity(communities, G)
     print(f"Community modularity: {modularity:.4f}")
     
-    # Create two visualizations
+    # Build a subgraph consisting of top nodes from each community
+    top_nodes = []
+    for comm_id, _ in top_communities:
+        # Nodes in the current community
+        nodes_in_comm = [node for node, comm in communities.items() if comm == comm_id]
+        subgraph = G.subgraph(nodes_in_comm)
+        
+        # Get top 5 nodes by degree within the community
+        degrees = subgraph.degree()
+        top_nodes_in_comm = sorted(degrees, key=lambda x: x[1], reverse=True)[:5]
+        top_nodes.extend([node for node, _ in top_nodes_in_comm])
     
-    # 1. Force-directed layout for largest communities
-    plt.figure(figsize=(20, 12))
+    # Create subgraph with top nodes and their edges
+    top_nodes_subgraph = G.subgraph(top_nodes)
     
-    # Get top N largest communities
-    top_n_communities = 5
-    top_communities = sorted(community_sizes.items(), key=lambda x: x[1], reverse=True)[:top_n_communities]
-    top_comm_ids = [comm_id for comm_id, _ in top_communities]
+    # Assign colors to communities
+    color_palette = plt.get_cmap('tab10')
+    community_color_map = {}
+    for idx, (comm_id, _) in enumerate(top_communities):
+        community_color_map[comm_id] = color_palette(idx)
     
-    # Create subgraph of only the largest communities
-    nodes_in_top_comms = [node for node, comm in communities.items() if comm in top_comm_ids]
-    subgraph = G.subgraph(nodes_in_top_comms)
+    # Assign colors to nodes
+    node_colors = []
+    for node in top_nodes_subgraph.nodes():
+        comm_id = communities[node]
+        node_colors.append(community_color_map[comm_id])
     
-    # Calculate layout for subgraph
-    pos = nx.spring_layout(subgraph, k=2, iterations=100)
+    # Create layout
+    pos = nx.spring_layout(top_nodes_subgraph, seed=42)
     
-    # Create color map for top communities
-    color_map = plt.cm.Set3(np.linspace(0, 1, top_n_communities))
-    community_colors = dict(zip(top_comm_ids, color_map))
+    # Draw the network
+    plt.figure(figsize=(15, 12))
     
     # Draw edges
-    nx.draw_networkx_edges(subgraph, pos, alpha=0.2, width=0.5)
+    nx.draw_networkx_edges(top_nodes_subgraph, pos, alpha=0.5, width=1)
     
-    # Draw nodes for each community
-    for comm_id in top_comm_ids:
-        nodes = [node for node in subgraph.nodes() if communities[node] == comm_id]
-        nx.draw_networkx_nodes(subgraph, pos,
-                             nodelist=nodes,
-                             node_color=[community_colors[comm_id]],
-                             node_size=100,
-                             label=f'Community {comm_id} (size: {community_sizes[comm_id]})')
+    # Draw nodes
+    nx.draw_networkx_nodes(top_nodes_subgraph, pos,
+                          node_color=node_colors,
+                          node_size=1000,
+                          alpha=0.8)
     
-    # Add labels for high-degree nodes in subgraph
-    degrees = dict(subgraph.degree())
-    threshold = np.percentile(list(degrees.values()), 90)
-    high_degree_nodes = {node: node for node, degree in degrees.items() if degree > threshold}
-    nx.draw_networkx_labels(subgraph, pos, high_degree_nodes, font_size=8)
+    # Create labels with adjustText
+    texts = []
+    for node in top_nodes_subgraph.nodes():
+        x, y = pos[node]
+        text = plt.text(x, y, node,
+                       fontsize=10,
+                       fontweight='bold',
+                       horizontalalignment='center',
+                       verticalalignment='center',
+                       bbox=dict(facecolor='white',
+                               edgecolor='none',
+                               alpha=0.7,
+                               pad=2))
+        texts.append(text)
     
-    plt.title(f"Top {top_n_communities} Largest Communities in {name} Network", pad=20)
-    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+    # Adjust label positions to avoid overlap
+    adjust_text(texts,
+               arrowprops=dict(arrowstyle='-',
+                              color='gray',
+                              lw=0.5,
+                              alpha=0.5),
+               expand_points=(1.5, 1.5))
+    
+    # Create legend
+    legend_elements = []
+    for comm_id, size in top_communities:
+        legend_elements.append(
+            plt.Line2D([0], [0], marker='o', color='w',
+                      label=f'Community {comm_id} ({size} nodes)',
+                      markerfacecolor=community_color_map[comm_id],
+                      markersize=10)
+        )
+    
+    # Position legend under the title
+    plt.legend(handles=legend_elements,
+              loc='upper center',
+              bbox_to_anchor=(0.5, 1.05),
+              ncol=3,  # Arrange legend items in 3 columns
+              title='Communities',
+              fontsize=10,
+              title_fontsize=12)
+    
+    plt.title(f"Top Nodes in Top {top_n_communities} Communities\nof {name} Network",
+             pad=20,
+             size=14,
+             y=1.2)  # Move title up to make room for legend
     plt.axis('off')
+    
+    # Adjust layout to make room for title and legend
+    plt.tight_layout(rect=[0, 0, 1, 0.9])  # Adjust the top margin
+    
+    # Adjust layout to make room for legend
     plt.tight_layout()
-    plt.savefig(f'{name.lower()}_top_communities.png', dpi=300, bbox_inches='tight')
-    plt.close()
-    
-    # 2. Community size distribution plot
-    plt.figure(figsize=(12, 6))
-    
-    # Get community sizes sorted
-    sizes = sorted(community_sizes.values(), reverse=True)
-    
-    # Plot size distribution
-    plt.bar(range(len(sizes)), sizes, alpha=0.8)
-    plt.yscale('log')
-    plt.xlabel('Community Rank')
-    plt.ylabel('Community Size (log scale)')
-    plt.title(f'{name} Network Community Size Distribution')
-    
-    # Add statistics
-    plt.text(0.7, 0.95, 
-             f'Total Communities: {n_communities}\n'
-             f'Largest Community: {max(sizes)} nodes\n'
-             f'Median Size: {np.median(sizes):.1f} nodes\n'
-             f'Modularity: {modularity:.4f}',
-             transform=plt.gca().transAxes,
-             bbox=dict(facecolor='white', alpha=0.8),
-             verticalalignment='top')
-    
-    plt.tight_layout()
-    plt.savefig(f'{name.lower()}_community_sizes.png', dpi=300)
+    plt.savefig(f'Figures/{name.lower()}_top_nodes_in_communities.png',
+                dpi=300,
+                bbox_inches='tight',
+                pad_inches=0.3)
     plt.close()
     
     return communities, community_sizes
@@ -204,5 +235,5 @@ print_network_metrics(actor_network, "Actor")
 print_network_metrics(movie_network, "Movie")
 
 print("\nAnalysis complete! Visualizations have been saved as:")
-print("- actor_network_communities.png")
-print("- movie_network_communities.png")
+print("- Figures/actor_top_nodes_in_communities.png")
+print("- Figures/movie_top_nodes_in_communities.png")

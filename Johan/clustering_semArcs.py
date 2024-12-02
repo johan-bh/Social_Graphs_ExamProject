@@ -39,7 +39,7 @@ def create_similarity_graph(sentiment_data):
 
 def cluster_with_louvain(graph):
     """Cluster movies using Louvain algorithm."""
-    partition = community_louvain.best_partition(graph, weight='weight', resolution=2.0)
+    partition = community_louvain.best_partition(graph, weight='weight', resolution=1.0)
     return partition
 
 def get_genre_frequencies(partition, movie_ids, movie_titles):
@@ -63,78 +63,63 @@ def plot_clusters_louvain(sentiment_data, partition, movie_ids, movie_titles, ge
             clusters[cluster_id] = []
         clusters[cluster_id].append(movie_idx)
     
-    # Create a copy of movie_titles and filter
+    # Create a copy of movie_titles and set index
     movie_titles_indexed = movie_titles.copy()
     movie_titles_indexed = movie_titles_indexed[movie_titles_indexed['MovieID'].isin(movie_ids)]
     
-    # Sort clusters by size
-    sorted_clusters = sorted(clusters.items(), key=lambda x: len(x[1]), reverse=True)
+    n_clusters = len(clusters)
+    fig, axes = plt.subplots(n_clusters, 1, figsize=(15, 5 * n_clusters))
+    if n_clusters == 1:
+        axes = [axes]
     
-    # Parameters for subplot organization
-    max_clusters_per_figure = 6
-    n_figures = (len(clusters) + max_clusters_per_figure - 1) // max_clusters_per_figure
+    for cluster_idx, (cluster_id, movies) in enumerate(clusters.items()):
+        ax = axes[cluster_idx]
+        cluster_movies = [movie_ids[movie_idx] for movie_idx in movies]
+        
+        # Plot all sentiment arcs in the cluster
+        for movie_idx in movies:
+            ax.plot(np.linspace(0, 1, 100), sentiment_data[movie_idx], alpha=0.3, 
+                   label='Individual Movies' if movie_idx == movies[0] else "")
+        
+        # Plot top 5 movies in the cluster
+        movie_data = movie_titles_indexed[movie_titles_indexed['MovieID'].isin(cluster_movies)]
+        top_movies = movie_data.nlargest(5, 'Votes')
+        
+        for _, movie_row in top_movies.iterrows():
+            movie_id = movie_row['MovieID']
+            idx = movie_ids.index(movie_id)
+            ax.plot(np.linspace(0, 1, 100), sentiment_data[idx], linewidth=2, 
+                   label=f"Top Movie: {movie_row['Title']}")
+        
+        # Add genre annotations
+        genres = genre_frequencies[cluster_id]
+        sorted_genres = sorted(genres.items(), key=lambda x: x[1], reverse=True)
+        top_genres = ', '.join([f"{genre} ({count})" for genre, count in sorted_genres[:3]])
+        ax.text(0.98, 0.9, f"Top Genres: {top_genres}", 
+                transform=ax.transAxes, fontsize=10, ha='right', 
+                bbox=dict(facecolor='white', alpha=0.8))
+        
+        ax.set_title(f"Cluster {cluster_idx + 1} (Movies: {len(movies)})")
+        ax.set_xlabel("Normalized Time")
+        ax.set_ylabel("Cumulative Sentiment")
+        ax.grid(True, alpha=0.3)
+        
+        # Add legend for this subplot
+        if len(ax.get_legend_handles_labels()[0]) > 0:
+            ax.legend(loc='upper left', fontsize=8)
     
-    for fig_num in range(n_figures):
-        # Get clusters for this figure
-        start_idx = fig_num * max_clusters_per_figure
-        end_idx = min((fig_num + 1) * max_clusters_per_figure, len(sorted_clusters))
-        current_clusters = sorted_clusters[start_idx:end_idx]
-        
-        # Create figure
-        fig, axes = plt.subplots(len(current_clusters), 1, figsize=(15, 5 * len(current_clusters)))
-        if len(current_clusters) == 1:
-            axes = [axes]
-        
-        for subplot_idx, (cluster_id, movies) in enumerate(current_clusters):
-            ax = axes[subplot_idx]
-            cluster_movies = [movie_ids[movie_idx] for movie_idx in movies]
-            
-            # Plot all sentiment arcs in the cluster
-            for movie_idx in movies:
-                ax.plot(np.linspace(0, 1, 100), sentiment_data[movie_idx], alpha=0.3, 
-                       label='Individual Movies' if movie_idx == movies[0] else "")
-            
-            # Plot top 5 movies in the cluster
-            movie_data = movie_titles_indexed[movie_titles_indexed['MovieID'].isin(cluster_movies)]
-            top_movies = movie_data.nlargest(5, 'Votes')
-            
-            for _, movie_row in top_movies.iterrows():
-                movie_id = movie_row['MovieID']
-                idx = movie_ids.index(movie_id)
-                ax.plot(np.linspace(0, 1, 100), sentiment_data[idx], linewidth=2, 
-                       label=f"Top Movie: {movie_row['Title']}")
-            
-            # Add genre annotations
-            genres = genre_frequencies[cluster_id]
-            sorted_genres = sorted(genres.items(), key=lambda x: x[1], reverse=True)
-            top_genres = ', '.join([f"{genre} ({count})" for genre, count in sorted_genres[:3]])
-            ax.text(0.98, 0.9, f"Top Genres: {top_genres}", 
-                    transform=ax.transAxes, fontsize=10, ha='right', 
-                    bbox=dict(facecolor='white', alpha=0.8))
-            
-            ax.set_title(f"Cluster {cluster_id} (Movies: {len(movies)})")
-            ax.set_xlabel("Normalized Time")
-            ax.set_ylabel("Cumulative Sentiment")
-            ax.grid(True, alpha=0.3)
-            
-            # Add legend for this subplot
-            if len(ax.get_legend_handles_labels()[0]) > 0:
-                ax.legend(loc='upper left', fontsize=8)
-        
-        # Add a main title
-        plt.suptitle(f"Sentiment Clustering of Movies (Part {fig_num + 1}/{n_figures})", 
-                    fontsize=16, y=1.02)
-        
-        # Add a caption
-        plt.figtext(0.5, 0.01, 
-                   "Sentiment arcs grouped by Louvain clustering. "
-                   "Top 5 movies highlighted with genre frequencies.", 
-                   wrap=True, horizontalalignment='center', fontsize=10)
-        
-        plt.tight_layout(rect=[0, 0.03, 1, 0.98])
-        plt.savefig(f'Figures/sentiment_clusters_louvain_part{fig_num+1}.png', 
-                    dpi=300, bbox_inches='tight')
-        plt.close()
+    # Add a main title
+    plt.suptitle("Sentiment Clustering of Movies Using Louvain Algorithm", fontsize=16, y=1.02)
+    
+    # Add a caption
+    plt.figtext(0.5, 0.01, 
+                "This plot shows sentiment arcs grouped by clusters identified using Louvain clustering. "
+                "Top 5 movies in each cluster are highlighted, with genre frequencies annotated.", 
+                wrap=True, horizontalalignment='center', fontsize=10)
+    
+    plt.tight_layout(rect=[0, 0.03, 1, 0.98])
+    plt.savefig('Figures/sentiment_clusters_louvain_annotated.png', dpi=300, bbox_inches='tight')
+    plt.close()
 
 
 # Example Usage
