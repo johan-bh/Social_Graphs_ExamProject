@@ -6,10 +6,11 @@ from tqdm import tqdm
 import matplotlib.patches as mpatches
 from matplotlib.lines import Line2D
 from adjustText import adjust_text  # Import adjustText
+import os
 
-def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movie_actors=5):
+def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movie_actors=5, output_filename=None):
     """Create and visualize a bipartite network of actors and movies."""
-    print("Creating bipartite network...")
+    print(f"Creating bipartite network for min_actor_movies={min_actor_movies}, min_movie_actors={min_movie_actors}...")
     
     # Filter data
     actor_counts = cast_df['actor_name'].value_counts()
@@ -31,7 +32,6 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
     actors = set(filtered_df['actor_name'])
     movies = set(filtered_df['movie_title'])
     
-    # Add nodes
     B.add_nodes_from(actors, bipartite=0, node_type='actor')
     B.add_nodes_from(movies, bipartite=1, node_type='movie')
     
@@ -39,9 +39,13 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
     edges = list(zip(filtered_df['actor_name'], filtered_df['movie_title']))
     B.add_edges_from(edges)
     
-    print(f"Network created with {len(actors)} actors and {len(movies)} movies")
+    print(f"Network created with {len(actors)} actors and {len(movies)} movies, and {len(B.edges())} edges.")
     
-    # Calculate node positions using spring layout
+    # Only visualize if we have a non-empty network
+    if len(actors) == 0 or len(movies) == 0:
+        print("No nodes meet the criteria. No visualization created.")
+        return B
+    
     print("Calculating layout...")
     pos = nx.spring_layout(B, k=0.3, iterations=50, seed=42)
     
@@ -49,8 +53,7 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
     actor_degrees = dict(B.degree(actors))
     movie_degrees = dict(B.degree(movies))
     
-    # Increase discrepancy between small and big nodes
-    # Exponential scaling
+    # Exponential scaling for node sizes
     actor_sizes = [50 + (actor_degrees[node] ** 2) * 2 for node in actors]
     movie_sizes = [50 + (movie_degrees[node] ** 2) * 2 for node in movies]
     
@@ -59,11 +62,11 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
     ax = plt.gca()
     ax.set_facecolor('white')
     
-    # Draw edges with increased alpha
+    # Draw edges
     nx.draw_networkx_edges(B, pos,
                            edge_color='gray',
-                           alpha=0.2,  # Increased alpha for edges
-                           width=1)    # Increased width for edges
+                           alpha=0.2,
+                           width=1)
     
     # Draw actor nodes
     nx.draw_networkx_nodes(B, pos,
@@ -81,49 +84,43 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
                            alpha=0.6,
                            label='Movies')
     
-    # Add labels for top 10 actors and movies
-    # Get top 10 actors and movies by degree
+    # Label top actors and movies
     top_actors = sorted(actor_degrees.items(), key=lambda x: x[1], reverse=True)[:5]
     top_movies = sorted(movie_degrees.items(), key=lambda x: x[1], reverse=True)[:5]
     
-    # Prepare labels with differentiation
     actor_labels = {node: f"Actor: {node}" for node, degree in top_actors}
     movie_labels = {node: f"Movie: {node}" for node, degree in top_movies}
     
-    # Use adjustText to avoid label overlapping
     texts = []
-    # Add actor labels
     for node, label in actor_labels.items():
         x, y = pos[node]
         text = plt.text(x, y, label,
                         fontsize=8,
                         fontweight='bold',
-                        color='black',  # Changed from fontcolor to color
+                        color='black',
                         horizontalalignment='center',
                         verticalalignment='center',
                         bbox=dict(facecolor='white', edgecolor='none', alpha=0.7))
         texts.append(text)
-    # Add movie labels
     for node, label in movie_labels.items():
         x, y = pos[node]
         text = plt.text(x, y, label,
                         fontsize=8,
                         fontweight='bold',
-                        color='black',  # Changed from fontcolor to color
+                        color='black',
                         horizontalalignment='center',
                         verticalalignment='center',
                         bbox=dict(facecolor='white', edgecolor='none', alpha=0.7))
         texts.append(text)
     
-    # Adjust labels to avoid overlap
     adjust_text(texts, arrowprops=dict(arrowstyle='-', color='gray', lw=0.5))
     
-    # Update the title to include a descriptive subtitle
-    plt.title("Actor-Movie Bipartite Network\nNode sizes represent the number of connections",
-              fontsize=18, fontweight='bold')
+    # Add a large title (suptitle) and a smaller subtitle (title)
+    plt.suptitle("Actor-Movie Bipartite Network", fontsize=22, fontweight='bold')
+    plt.title(f"(min_actor_movies={min_actor_movies}, min_movie_actors={min_movie_actors})\nNode sizes represent the number of connections", 
+              fontsize=14)
     
-    # Create custom legend
-    # Add node size legend entries
+    # Adjust legend to be bigger
     size_legend = [
         Line2D([0], [0], marker='o', color='w', label='Low Degree',
                markerfacecolor='gray', markersize=5),
@@ -131,28 +128,25 @@ def create_and_visualize_bipartite_network(cast_df, min_actor_movies=5, min_movi
                markerfacecolor='gray', markersize=15)
     ]
     
-    # Add node color legend entries
     actor_patch = mpatches.Patch(color='#ff7f0e', label='Actors')
     movie_patch = mpatches.Patch(color='#1f77b4', label='Movies')
-    
-    # Combine legends
     legend_elements = [actor_patch, movie_patch] + size_legend
     
-    # Move legend to the top right
     plt.legend(handles=legend_elements, loc='upper right', bbox_to_anchor=(1, 1),
-               fontsize=10, title='Node Types and Sizes')
+               fontsize=12, title='Node Types and Sizes', title_fontsize=14)
     
-    # Remove axes
     plt.axis('off')
+    plt.tight_layout(rect=[0, 0, 1, 0.95])  # Leaves space for suptitle
     
-    # Save the plot
-    print("Saving visualization...")
-    plt.tight_layout()
-    plt.savefig('Figures/actor_movie_network.png', dpi=300, bbox_inches='tight')
+    # Save the plot if output filename is provided
+    if output_filename:
+        os.makedirs(os.path.dirname(output_filename), exist_ok=True)
+        print(f"Saving visualization to {output_filename}...")
+        plt.savefig(output_filename, dpi=300, bbox_inches='tight')
+    
     plt.close()
     
     return B
-
 
 if __name__ == "__main__":
     # Load the dataset
@@ -160,25 +154,61 @@ if __name__ == "__main__":
     file_path = r"Data/movie_casts_sample.csv"
     cast_df = pd.read_csv(file_path)
     
-    # Print initial distribution
     print("\nInitial distribution:")
     print(f"Total actors: {len(cast_df['actor_name'].unique())}")
     print(f"Total movies: {len(cast_df['movie_title'].unique())}")
     
-    # Create and visualize the network with adjusted thresholds
-    B = create_and_visualize_bipartite_network(cast_df, 
-                                             min_actor_movies=5, 
-                                             min_movie_actors=2)
+    # Create a folder for tables
+    os.makedirs("Tables", exist_ok=True)
     
-    # Print some network metrics
-    print("\nNetwork Metrics:")
-    print(f"Network density: {nx.density(B):.4f}")
+    # Prepare a DataFrame to collect summary stats
+    summary_data = []
+
+    # Visualize networks for min_actor_movies=2,3,4 (keeping min_movie_actors fixed, e.g., =2)
+    for min_collab in [2, 3, 4]:
+        B = create_and_visualize_bipartite_network(
+            cast_df, 
+            min_actor_movies=min_collab, 
+            min_movie_actors=2,
+            output_filename=f'Figures/actor_movie_network_min{min_collab}.png'
+        )
+        
+        # Collect summary stats
+        num_actors = len([n for n, d in B.nodes(data=True) if d.get('node_type') == 'actor'])
+        num_movies = len([n for n, d in B.nodes(data=True) if d.get('node_type') == 'movie'])
+        num_edges = B.number_of_edges()
+        density = nx.density(B)
+        
+        summary_data.append({
+            'min_actor_movies': min_collab,
+            'min_movie_actors': 2,
+            'num_actors': num_actors,
+            'num_movies': num_movies,
+            'num_edges': num_edges,
+            'density': density
+        })
+        
+        # Print network metrics for this configuration
+        print(f"\nNetwork Metrics (min_actor_movies={min_collab}, min_movie_actors=2):")
+        if len(B) > 0:
+            print(f"Network density: {density:.4f}")
+            
+            # Get top 5 nodes by degree
+            degrees = dict(B.degree())
+            top_nodes = sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:5]
+            
+            print("Top 5 most connected nodes:")
+            for node, degree in top_nodes:
+                node_type = 'Actor' if B.nodes[node]['node_type'] == 'actor' else 'Movie'
+                print(f"{node_type}: {node} (Connections: {degree})")
+        else:
+            print("No network to report metrics on.")
     
-    # Get top actors and movies by degree
-    degrees = dict(B.degree())
-    top_nodes = sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:5]
+    # Create a DataFrame and save as LaTeX table
+    summary_df = pd.DataFrame(summary_data)
+    latex_table = summary_df.to_latex(index=False, float_format="%.4f")
     
-    print("\nTop 10 most connected nodes:")
-    for node, degree in top_nodes:
-        node_type = 'Actor' if B.nodes[node]['node_type'] == 'actor' else 'Movie'
-        print(f"{node_type}: {node} (Connections: {degree})")
+    with open("Tables/summary_stats.tex", "w") as f:
+        f.write(latex_table)
+    
+    print("Summary statistics LaTeX table saved to Tables/summary_stats.tex")

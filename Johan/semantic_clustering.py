@@ -3,9 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from collections import defaultdict, Counter
+from collections import Counter
 from nltk.sentiment import SentimentIntensityAnalyzer
-from sklearn.feature_extraction.text import TfidfVectorizer
 import os
 import kagglehub
 import ast
@@ -13,6 +12,7 @@ import nltk
 nltk.download('vader_lexicon')
 from nltk.corpus import stopwords
 import string
+from adjustText import adjust_text
 
 # Create Figures directory if it doesn't exist
 os.makedirs('Figures', exist_ok=True)
@@ -20,34 +20,38 @@ os.makedirs('Figures', exist_ok=True)
 def load_movie_data():
     """Load and preprocess the Cornell Movie Dialog Corpus."""
     print("Loading movie dialog dataset...")
-    
-    # Download dataset
     path = kagglehub.dataset_download("rajathmc/cornell-moviedialog-corpus")
     
     # Load movie lines
-    movie_lines = pd.read_csv(f"{path}/movie_lines.txt", 
-                              sep=r' \+\+\+\$\+\+\+ ', 
-                              header=None,
-                              on_bad_lines='skip', 
-                              encoding='ISO-8859-1', 
-                              engine='python')
+    movie_lines = pd.read_csv(
+        f"{path}/movie_lines.txt", 
+        sep=r' \+\+\+\$\+\+\+ ',
+        header=None,
+        on_bad_lines='skip',
+        encoding='ISO-8859-1',
+        engine='python'
+    )
     movie_lines.columns = ['LineID', 'CharacterID', 'MovieID', 'CharacterName', 'Text']
     
     # Load movie conversations
-    movie_conversations = pd.read_csv(f"{path}/movie_conversations.txt", 
-                                      sep=r' \+\+\+\$\+\+\+ ', 
-                                      header=None,
-                                      on_bad_lines='skip', 
-                                      encoding='ISO-8859-1', 
-                                      engine='python')
+    movie_conversations = pd.read_csv(
+        f"{path}/movie_conversations.txt", 
+        sep=r' \+\+\+\$\+\+\+ ',
+        header=None,
+        on_bad_lines='skip',
+        encoding='ISO-8859-1',
+        engine='python'
+    )
     movie_conversations.columns = ['CharacterID1', 'CharacterID2', 'MovieID', 'Conversation']
     
     # Load movie titles and metadata
-    movie_titles = pd.read_csv(f"{path}/movie_titles_metadata.txt", 
-                               sep=r' \+\+\+\$\+\+\+ ',
-                               header=None, 
-                               encoding='ISO-8859-1', 
-                               engine='python')
+    movie_titles = pd.read_csv(
+        f"{path}/movie_titles_metadata.txt",
+        sep=r' \+\+\+\$\+\+\+ ',
+        header=None,
+        encoding='ISO-8859-1',
+        engine='python'
+    )
     movie_titles.columns = ['MovieID', 'Title', 'Year', 'Rating', 'Votes', 'Genres']
     
     # Clean the data
@@ -68,12 +72,11 @@ def load_movie_data():
     
     def parse_conversation(conv_str):
         try:
-            # Remove brackets and split by comma
             conv_str = conv_str.strip("[]' ").replace("'", "").replace('"', '')
             return [x.strip() for x in conv_str.split(',') if x.strip()]
         except:
             return []
-
+    
     def get_conversation_text(conv_list):
         texts = []
         for line_id in conv_list:
@@ -106,19 +109,15 @@ class MovieDialogueAnalyzer:
         
     def create_interaction_network(self, movie_id):
         """Create a directed interaction network for a specific movie."""
-        # Get movie conversations and create graph
         movie_convos = self.movie_conversations[self.movie_conversations['MovieID'] == movie_id]
         movie_lines_subset = self.movie_lines[self.movie_lines['MovieID'] == movie_id]
         char_names = dict(zip(movie_lines_subset['CharacterID'], movie_lines_subset['CharacterName']))
         
-        # Create directed graph
         MG = nx.DiGraph()
         
-        # Create line to character mapping
         line_to_character = dict(zip(movie_lines_subset['LineID'], movie_lines_subset['CharacterID']))
         line_dict = dict(zip(movie_lines_subset['LineID'], movie_lines_subset['Text']))
         
-        # Build the graph with sentiment analysis
         for _, row in movie_convos.iterrows():
             try:
                 conversation_ids = row['Conversation']
@@ -141,16 +140,17 @@ class MovieDialogueAnalyzer:
                             MG[char1][char2]['weight'] += 1
                         else:
                             MG.add_edge(char1, char2, weight=1, sentiment=sentiment)
-                # Add nodes with names
-                MG.add_node(char1, name=char_names.get(char1, char1))
-                MG.add_node(char2, name=char_names.get(char2, char2))
+                if char1:
+                    MG.add_node(char1, name=char_names.get(char1, char1))
+                if char2:
+                    MG.add_node(char2, name=char_names.get(char2, char2))
             except:
                 continue
         
         return MG, char_names
 
     def plot_all_sentiment_arcs(self, movie_ids):
-        """Plot cumulative sentiment arcs for multiple movies in a single plot with subplots."""
+        """Plot cumulative sentiment arcs with bold, large titles and capitalized movie titles."""
         n_movies = len(movie_ids)
         n_cols = 5
         n_rows = 2
@@ -163,106 +163,107 @@ class MovieDialogueAnalyzer:
             movie_lines['Sentiment'] = movie_lines['Text'].apply(lambda x: self.sia.polarity_scores(x)['compound'])
             movie_lines['CumulativeAverage'] = movie_lines['Sentiment'].expanding().mean()
             
-            # Plot cumulative average with fill-between
             ax.plot(range(len(movie_lines)), movie_lines['CumulativeAverage'], color='red', linestyle='--', linewidth=2)
             ax.fill_between(range(len(movie_lines)), movie_lines['CumulativeAverage'], color='red', alpha=0.1)
             
-            # Get movie title
             title = self.movie_titles[self.movie_titles['MovieID'] == movie_id]['Title'].iloc[0]
-            ax.set_title(title, fontsize=10)
+            ax.set_title(title.title(), fontsize=14, fontweight='bold')
             ax.set_xlabel('Dialogue Sequence')
             ax.set_ylabel('Cumulative Sentiment')
             ax.grid(True, alpha=0.3)
         
-        # Remove empty subplots if any
         for ax in axes[len(movie_ids):]:
             ax.remove()
         
-        plt.suptitle('Cumulative Sentiment Arcs Across Movies', fontsize=16, y=1.02)
+        plt.suptitle('Cumulative Sentiment Arcs Across Movies', fontsize=22, fontweight='bold', y=1.02)
         plt.tight_layout()
         plt.savefig('Figures/sentiment_arcs_combined.png', dpi=300, bbox_inches='tight')
         plt.close()
         
     def plot_all_interaction_networks(self, movie_ids):
-        """Plot interaction networks for multiple movies in a single plot with subplots."""
+        """Plot interaction networks and only label top nodes by degree to reduce crowding."""
         n_movies = len(movie_ids)
         n_cols = 5
         n_rows = 2
         
         fig, axes = plt.subplots(n_rows, n_cols, figsize=(20, 10))
-        fig.suptitle("Character Interaction Networks for Top Movies\nEdge colors indicate sentiment (blue=negative, red=positive)", 
-                    fontsize=16, y=0.95)
+        fig.suptitle("Character Interaction Networks for Top Movies\nEdge colors indicate sentiment (blue=negative, red=positive)",
+                     fontsize=22, fontweight='bold', y=0.95)
         
         axes = axes.flatten()
         
         for idx, (ax, movie_id) in enumerate(zip(axes, movie_ids)):
             movie = self.movie_titles[self.movie_titles['MovieID'] == movie_id].iloc[0]
             
-            # Create network
             MG, char_names = self.create_interaction_network(movie_id)
             
-            # Create layout with more spacing
-            pos = nx.spring_layout(MG, k=2, iterations=50, seed=42)
+            pos = nx.kamada_kawai_layout(MG)
             
-            # Calculate node sizes and edge colors
-            degrees = dict(MG.degree())
-            # Reduce base node size and scaling factor
-            node_sizes = [20 + degrees[n]*10 for n in MG.nodes()]
+            node_size = 300
             edge_colors = [MG[u][v]['sentiment'] for u, v in MG.edges()]
             
-            # Draw edges with reduced width and transparency
-            edges = nx.draw_networkx_edges(MG, pos,
-                                        edge_color=edge_colors,
-                                        edge_cmap=plt.cm.coolwarm,  # Changed to coolwarm for better distinction
-                                        edge_vmin=-1,
-                                        edge_vmax=1,
-                                        width=[0.5 + MG[u][v]['weight']*0.5 for u, v in MG.edges()],  # Thinner edges
-                                        alpha=0.4,  # More transparent
-                                        arrows=True,
-                                        arrowsize=5,  # Smaller arrows
-                                        ax=ax)
+            # Draw nodes first
+            nx.draw_networkx_nodes(
+                MG, pos,
+                node_color='lightgray',
+                node_size=node_size,
+                alpha=0.8,
+                ax=ax
+            )
             
-            # Draw nodes with smaller sizes
-            nodes = nx.draw_networkx_nodes(MG, pos,
-                                        node_color='lightgray',  # Changed to lighter color
-                                        node_size=node_sizes,
-                                        alpha=0.6,
-                                        ax=ax)
+            # Draw edges with thicker width
+            nx.draw_networkx_edges(
+                MG, pos,
+                edge_color=edge_colors,
+                edge_cmap=plt.cm.coolwarm,
+                edge_vmin=-1,
+                edge_vmax=1,
+                width=2,
+                alpha=1.0,
+                arrows=False,
+                ax=ax
+            )
             
-            # Draw labels for only the most important characters
-            # Label only nodes with degree higher than average
-            avg_degree = np.mean(list(degrees.values()))
-            important_nodes = [node for node in MG.nodes() if degrees[node] > avg_degree]
-            labels = {node: char_names.get(node, str(node)) for node in important_nodes}
+            # Label only top N nodes by degree to reduce clutter
+            degrees = dict(MG.degree())
+            # Sort nodes by degree and pick top 8
+            top_nodes = [n for n, deg in sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:8]]
+            labels = {node: char_names.get(node, str(node)) for node in top_nodes}
             
-            nx.draw_networkx_labels(MG, pos,
-                                labels,
-                                font_size=6,
-                                font_weight='bold',
-                                ax=ax)
+            texts = []
+            for node in top_nodes:
+                x, y = pos[node]
+                text = ax.text(x, y, labels[node],
+                               fontsize=8,
+                               fontweight='bold',
+                               horizontalalignment='center',
+                               verticalalignment='center',
+                               bbox=dict(facecolor='white', edgecolor='none', alpha=0.7, pad=2))
+                texts.append(text)
             
-            # Set title with network stats
-            ax.set_title(f"{movie['Title']}\n{MG.number_of_nodes()} chars, {MG.number_of_edges()} interactions", 
-                        fontsize=8)
+            adjust_text(texts, ax=ax,
+                        arrowprops=dict(arrowstyle='-', color='gray', lw=0.5, alpha=0.5))
+            
+            ax.set_title(f"{movie['Title'].title()}\n{MG.number_of_nodes()} chars, {MG.number_of_edges()} interactions",
+                         fontsize=10, fontweight='bold')
             ax.axis('off')
         
-        # Remove empty subplots if any
         for ax in axes[len(movie_ids):]:
             ax.remove()
         
-        # Add colorbar
+        # Colorbar
         sm = plt.cm.ScalarMappable(cmap=plt.cm.coolwarm, norm=plt.Normalize(vmin=-1, vmax=1))
         sm.set_array([])
         cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
         cbar = plt.colorbar(sm, cax=cbar_ax)
         cbar.set_label('Edge Sentiment Score', fontsize=12)
         
-        plt.tight_layout(rect=[0, 0, 0.9, 0.95])
+        plt.tight_layout(rect=[0, 0, 0.9, 0.93])
         plt.savefig('Figures/interaction_networks_combined.png', dpi=300, bbox_inches='tight')
         plt.close()
         
     def plot_all_emotional_keywords(self, movie_ids):
-        """Plot emotional keywords for multiple movies in a single plot with subplots."""
+        """Plot emotional keywords with improved title style."""
         n_movies = len(movie_ids)
         n_cols = 5
         n_rows = 2
@@ -274,48 +275,43 @@ class MovieDialogueAnalyzer:
             movie_lines = self.movie_lines[self.movie_lines['MovieID'] == movie_id]
             text = ' '.join(movie_lines['Text'].tolist())
             
-            # Tokenize and clean words
             words = nltk.word_tokenize(text)
             words = [word.lower() for word in words if word.isalpha()]
             words = [word for word in words if word not in self.stop_words and word not in self.punctuations]
             
-            # Count word frequencies
             word_freq = Counter(words)
             
-            # Calculate sentiment scores for words
             word_sentiments = {}
             for word, freq in word_freq.items():
                 sentiment = self.sia.polarity_scores(word)['compound']
-                if abs(sentiment) > 0.1:  # Threshold for significant sentiment
+                if abs(sentiment) > 0.1:
                     word_sentiments[word] = {'sentiment': sentiment, 'frequency': freq}
             
             if word_sentiments:
-                # Sort words by absolute sentiment score and frequency
-                sorted_words = sorted(word_sentiments.items(), 
-                                      key=lambda x: (abs(x[1]['sentiment']), x[1]['frequency']), 
-                                      reverse=True)[:10]
+                sorted_words = sorted(
+                    word_sentiments.items(),
+                    key=lambda x: (abs(x[1]['sentiment']), x[1]['frequency']),
+                    reverse=True
+                )[:10]
                 
-                words = [word for word, data in sorted_words]
+                words_plot = [word for word, data in sorted_words]
                 sentiments = [data['sentiment'] for word, data in sorted_words]
-                frequencies = [data['frequency'] for word, data in sorted_words]
-                
                 colors = ['red' if s < 0 else 'green' for s in sentiments]
-                ax.barh(words, sentiments, color=colors, alpha=0.6)
+                ax.barh(words_plot, sentiments, color=colors, alpha=0.6)
                 ax.set_xlim(-1, 1)
             else:
                 ax.text(0.5, 0.5, 'No Significant Keywords Found', ha='center', va='center')
             
             title = self.movie_titles[self.movie_titles['MovieID'] == movie_id]['Title'].iloc[0]
-            ax.set_title(title, fontsize=10)
+            ax.set_title(title.title(), fontsize=14, fontweight='bold')
             ax.axvline(x=0, color='black', linestyle='-', alpha=0.3)
             ax.set_xlabel('Sentiment Score')
             ax.set_ylabel('Keywords')
         
-        # Remove empty subplots if any
         for ax in axes[len(movie_ids):]:
             ax.remove()
         
-        plt.suptitle('Emotional Keywords Across Movies', fontsize=16, y=1.02)
+        plt.suptitle('Emotional Keywords Across Movies', fontsize=22, fontweight='bold', y=1.02)
         plt.tight_layout()
         plt.savefig('Figures/emotional_keywords_combined.png', dpi=300, bbox_inches='tight')
         plt.close()
@@ -341,7 +337,7 @@ if __name__ == "__main__":
     # Plot sentiment arcs for all movies
     analyzer.plot_all_sentiment_arcs(movie_ids)
     
-    # Plot interaction networks for all movies
+    # Plot interaction networks for all movies with reduced clutter
     analyzer.plot_all_interaction_networks(movie_ids)
     
     # Plot emotional keywords for all movies

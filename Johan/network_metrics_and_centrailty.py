@@ -8,7 +8,7 @@ import numpy as np
 sns.set(style="whitegrid")
 
 # Load the bipartite graph dataset
-file_path = r"C:\Users\jbh\Desktop\Social_Graphs_ExamProject\Data\movie_casts_sample.csv"
+file_path = r"Data\movie_casts_sample.csv"
 movie_casts = pd.read_csv(file_path)
 
 # Create a bipartite graph
@@ -121,7 +121,7 @@ def plot_degree_distributions(real_data, ba_data, random_data, title, xlabel):
     ax.legend(fontsize=12)
 
     # Add grid for better readability
-    ax.grid(visible=True, which="both", linestyle="--", linewidth=0.5)
+    ax.grid(False)
 
     # Ensure tight layout and save the plot
     plt.tight_layout()
