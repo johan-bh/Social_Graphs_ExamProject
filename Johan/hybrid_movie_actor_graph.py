@@ -6,8 +6,9 @@ from collections import defaultdict
 import matplotlib.patches as mpatches
 from matplotlib.lines import Line2D
 import os
+import ast  # In case we need it
 
-def plot_actor_network(cast_df, top_n=20):
+def plot_actor_network(cast_df, top_n=20, show_title=True):
     # Ensure directories exist
     os.makedirs('Figures', exist_ok=True)
     os.makedirs('Tables', exist_ok=True)
@@ -104,10 +105,16 @@ def plot_actor_network(cast_df, top_n=20):
     nx.draw_networkx_edges(G, pos, alpha=0.4, width=0.5)
     
     # Labels
+    # Increase font sizes and make them bold
     actor_labels = {node: f"{node}\n({G.nodes[node]['movie_count']} movies)" for node in actor_nodes}
     movie_labels = {node: node for node in movie_nodes}
-    nx.draw_networkx_labels(G, pos, actor_labels, font_size=10, font_weight='bold')
-    nx.draw_networkx_labels(G, pos, movie_labels, font_size=8)
+    nx.draw_networkx_labels(G, pos, actor_labels, font_size=25, font_weight='bold')
+    nx.draw_networkx_labels(G, pos, movie_labels, font_size=14, font_weight='bold')
+    
+    # Show or hide titles based on show_title parameter
+    if show_title:
+        plt.suptitle("Actor-Movie Collaboration Network", fontsize=24, y=0.97, fontweight='bold')
+        plt.title("Top 20 Most Frequent Actors and Their Movie Connections", fontsize=18, y=0.94, pad=20, fontweight='bold')
     
     # Legend handles
     actor_patch = mpatches.Patch(color='lightblue', label='Actors')
@@ -115,33 +122,20 @@ def plot_actor_network(cast_df, top_n=20):
     low_degree_node = Line2D([0], [0], marker='o', color='w', label='Low Degree',
                              markerfacecolor='gray', markersize=6)
     high_degree_node = Line2D([0], [0], marker='o', color='w', label='High Degree',
-                              markerfacecolor='gray', markersize=15)
+                              markerfacecolor='gray', markersize=12)
     
-    # Bold titles
-    plt.suptitle("Actor-Movie Collaboration Network", fontsize=24, y=0.97, fontweight='bold')
-    plt.title("Top 20 Most Frequent Actors and Their Movie Connections", fontsize=18, y=0.94, pad=20, fontweight='bold')
-    
-    # Legend at top right
+    # Increase legend visibility: larger font, bold, frame
     legend = plt.legend(handles=[actor_patch, movie_patch, low_degree_node, high_degree_node],
-                        fontsize=18, loc='upper right', bbox_to_anchor=(0.98, 1))
+                        loc='upper right', bbox_to_anchor=(0.98, 1),
+                        prop={'size':24, 'weight':'bold'},
+                        frameon=True, fancybox=True, framealpha=1, edgecolor='black')
     
-    # Collaboration stats text below the legend
-    collab_text = "Top Actor Collaborations:\n"
-
-    for actor in top_actors[:10]:
-        collab_text += f"{actor}: {collaboration_counts[actor]} collaborations\n"
-    
-    # Add info box aligned below the legend
-    plt.figtext(0.85, 0.75, collab_text, 
-                fontsize=12,
-                ha='left',
-                bbox=dict(facecolor='white', alpha=0.9, edgecolor='gray', pad=10))
     
     plt.axis('off')
     plt.tight_layout()
     
     # Save figure
-    plt.savefig("Figures/actor_movie_collaboration_network.png", dpi=300, bbox_inches='tight')
+    plt.savefig("Figures/actor_movie_collaboration_network.png", dpi=600, bbox_inches='tight')
     plt.close()
 
 
@@ -149,4 +143,5 @@ if __name__ == "__main__":
     # Load the dataset
     file_path = r"Data/movie_casts_sample.csv"
     cast_df = pd.read_csv(file_path)
-    plot_actor_network(cast_df, top_n=20)
+    # Example call:
+    plot_actor_network(cast_df, top_n=10, show_title=False)
