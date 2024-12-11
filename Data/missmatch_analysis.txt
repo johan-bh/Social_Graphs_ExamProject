@@ -1,0 +1,6708 @@
+
+Analysis for: 10 things i hate about you
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- kat
+- miss perky
+- bruce
+- sharon
+--------------------------------------------------
+
+Analysis for: 1492: conquest of paradise
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- arojaz
+- utapan
+- sailor
+- isabel
+- pinzon
+--------------------------------------------------
+
+Analysis for: 15 minutes
+Cornell characters: 23
+TMDB matched characters: 19
+Missing characters: 4
+Characters not found in TMDB:
+- max
+- robert hawkins
+- secondary officer
+- immigration officer
+--------------------------------------------------
+
+Analysis for: 2001: a space odyssey
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- c12
+- child
+- pilot
+- co-pilot
+- b20
+--------------------------------------------------
+
+Analysis for: 48 hrs.
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- sosna
+- lisa
+--------------------------------------------------
+
+Analysis for: 8mm
+Cornell characters: 15
+TMDB matched characters: 8
+Missing characters: 7
+Characters not found in TMDB:
+- dino velvet
+- mrs christian
+- salesperson
+- mrs mathews
+- politician
+- male voice
+- angry dealer
+--------------------------------------------------
+
+Analysis for: a bucket of blood
+Cornell characters: 12
+TMDB matched characters: 7
+Missing characters: 5
+Characters not found in TMDB:
+- cuff
+- mayolia
+- plump man
+- mrs. swicker
+- link
+--------------------------------------------------
+
+Analysis for: a clockwork orange
+Cornell characters: 20
+TMDB matched characters: 13
+Missing characters: 7
+Characters not found in TMDB:
+- lardface
+- pee
+- dr. taylor
+- priest
+- rubinstein
+- dolin
+- em
+--------------------------------------------------
+
+Analysis for: a hard day's night
+Cornell characters: 20
+TMDB matched characters: 14
+Missing characters: 6
+Characters not found in TMDB:
+- sergeant
+- floor manager
+- blonde
+- boys
+- audrey
+- frank
+--------------------------------------------------
+
+Analysis for: a nightmare on elm street
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- mr lantz
+- lt thompson
+- dr king
+--------------------------------------------------
+
+Analysis for: a nightmare on elm street 3: dream warriors
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- nun
+--------------------------------------------------
+
+Analysis for: a nightmare on elm street 4: the dream master
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: a nightmare on elm street part 2: freddy's revenge
+Cornell characters: 8
+TMDB matched characters: 5
+Missing characters: 3
+Characters not found in TMDB:
+- mom
+- dad
+- mrs. poletti
+--------------------------------------------------
+
+Analysis for: a nightmare on elm street: the dream child
+Cornell characters: 8
+TMDB matched characters: 7
+Missing characters: 1
+Characters not found in TMDB:
+- alice's dad
+--------------------------------------------------
+
+Analysis for: a walk to remember
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- harold
+- rev. sullivan
+--------------------------------------------------
+
+Analysis for: affliction
+Cornell characters: 16
+TMDB matched characters: 15
+Missing characters: 1
+Characters not found in TMDB:
+- pop
+--------------------------------------------------
+
+Analysis for: agnes of god
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- mother miriam
+- elderly nun
+- mama
+--------------------------------------------------
+
+Analysis for: air force one
+Cornell characters: 23
+TMDB matched characters: 12
+Missing characters: 11
+Characters not found in TMDB:
+- kc-lo pilot
+- secret service agent
+- cerallos
+- shepherd
+- mitchell
+- kc-135 pilot
+- rose
+- iraqi soldier
+- v.p. chandler
+- col. carlton
+- tower
+--------------------------------------------------
+
+Analysis for: airplane ii: the sequel
+Cornell characters: 17
+TMDB matched characters: 8
+Missing characters: 9
+Characters not found in TMDB:
+- receptionist
+- jimmy
+- stella
+- wife
+- porter
+- john
+- mary
+- rok
+- rumack
+--------------------------------------------------
+
+Analysis for: airplane!
+Cornell characters: 20
+TMDB matched characters: 17
+Missing characters: 3
+Characters not found in TMDB:
+- milton
+- sister angelina
+- bernice
+--------------------------------------------------
+
+Analysis for: alien nation
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- winter
+- maffet
+- o'neal
+- jetson
+- operator
+--------------------------------------------------
+
+Analysis for: aliens
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- med-tech
+--------------------------------------------------
+
+Analysis for: all about eve
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- operator's voice
+--------------------------------------------------
+
+Analysis for: all the president's men
+Cornell characters: 25
+TMDB matched characters: 15
+Missing characters: 10
+Characters not found in TMDB:
+- dahlberg
+- hannah
+- irwin
+- hunt
+- clawsen
+- caddy
+- mrs. graham
+- jane
+- sweet old lady
+- mccord
+--------------------------------------------------
+
+Analysis for: amadeus
+Cornell characters: 28
+TMDB matched characters: 14
+Missing characters: 14
+Characters not found in TMDB:
+- first lady
+- von swieten
+- andante
+- frau schlumberg
+- ugly old woman
+- second lady
+- allegro
+- madame weber
+- von strack
+- servant
+- officer
+- schlumberg
+- old salieri
+- flunky
+--------------------------------------------------
+
+Analysis for: american madness
+Cornell characters: 22
+TMDB matched characters: 12
+Missing characters: 10
+Characters not found in TMDB:
+- mrs. dickson
+- bill
+- mrs. pembroke
+- teller
+- guard
+- janitor
+- lady
+- mike
+- gardiner
+- helen's voice
+--------------------------------------------------
+
+Analysis for: american outlaws
+Cornell characters: 21
+TMDB matched characters: 16
+Missing characters: 5
+Characters not found in TMDB:
+- jimmy
+- marshall
+- doc mimms
+- sherriff
+- old man
+--------------------------------------------------
+
+Analysis for: american pie
+Cornell characters: 19
+TMDB matched characters: 12
+Missing characters: 7
+Characters not found in TMDB:
+- jim's dad
+- oz
+- porno-channel chick
+- choir teacher
+- sophomore chick
+- kevin's brother
+- college chick
+--------------------------------------------------
+
+Analysis for: american psycho
+Cornell characters: 17
+TMDB matched characters: 13
+Missing characters: 4
+Characters not found in TMDB:
+- price
+- maitre d'
+- van patten
+- owen
+--------------------------------------------------
+
+Analysis for: an american werewolf in london
+Cornell characters: 15
+TMDB matched characters: 6
+Missing characters: 9
+Characters not found in TMDB:
+- miss gallagher
+- bringsly
+- secretary
+- bobbie
+- dr. hirsch
+- mrs. hobbs
+- orderly
+- sgt. mcmanus
+- lt. villiers
+--------------------------------------------------
+
+Analysis for: an american werewolf in paris
+Cornell characters: 11
+TMDB matched characters: 6
+Missing characters: 5
+Characters not found in TMDB:
+- cop
+- desk officer
+- terrence
+- gaston
+- marcel
+--------------------------------------------------
+
+Analysis for: an officer and a gentleman
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- group
+--------------------------------------------------
+
+Analysis for: anastasia
+Cornell characters: 10
+TMDB matched characters: 6
+Missing characters: 4
+Characters not found in TMDB:
+- tatiana
+- dmitri
+- anya
+- gregor
+--------------------------------------------------
+
+Analysis for: annie hall
+Cornell characters: 24
+TMDB matched characters: 12
+Missing characters: 12
+Characters not found in TMDB:
+- mom hall
+- annie's voice
+- girl date
+- reporter
+- alvy's father
+- man in line
+- 2nd man
+- annie's voice-over
+- alvy's mother
+- alvy's voice
+- alvy's voice-over
+- 1st man
+--------------------------------------------------
+
+Analysis for: antitrust
+Cornell characters: 16
+TMDB matched characters: 13
+Missing characters: 3
+Characters not found in TMDB:
+- len
+- larry king
+- cyber pundit
+--------------------------------------------------
+
+Analysis for: antz
+Cornell characters: 10
+TMDB matched characters: 5
+Missing characters: 5
+Characters not found in TMDB:
+- z
+- carpenter
+- motivational counsellor
+- formica
+- handmaiden #2
+--------------------------------------------------
+
+Analysis for: apocalypse now
+Cornell characters: 22
+TMDB matched characters: 15
+Missing characters: 7
+Characters not found in TMDB:
+- australian
+- kurtz's wife
+- clean
+- radio
+- moonby
+- chef
+- kurtz
+--------------------------------------------------
+
+Analysis for: arcade
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- alex's mother
+--------------------------------------------------
+
+Analysis for: arctic blue
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- nan
+- viking bob
+- state policeman
+--------------------------------------------------
+
+Analysis for: as good as it gets
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- head waiter
+- zoe
+- cheryl
+--------------------------------------------------
+
+Analysis for: assassins
+Cornell characters: 10
+TMDB matched characters: 6
+Missing characters: 4
+Characters not found in TMDB:
+- rath/screen
+- escort
+- cabby
+- contractor/screen
+--------------------------------------------------
+
+Analysis for: austin powers: international man of mystery
+Cornell characters: 18
+TMDB matched characters: 15
+Missing characters: 3
+Characters not found in TMDB:
+- destructacon
+- dr. evil
+- mick jagger
+--------------------------------------------------
+
+Analysis for: bachelor party
+Cornell characters: 21
+TMDB matched characters: 14
+Missing characters: 7
+Characters not found in TMDB:
+- jumbo
+- bobbie
+- mrs. thomerson
+- mr. thomerson
+- larry
+- mr. t
+- chulo
+--------------------------------------------------
+
+Analysis for: back to the future
+Cornell characters: 12
+TMDB matched characters: 3
+Missing characters: 9
+Characters not found in TMDB:
+- clerk
+- eileen
+- n.r.c. agent reese
+- suzy
+- professor emmett brown
+- waitress
+- dick
+- mr. arky
+- operator
+--------------------------------------------------
+
+Analysis for: backdraft
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- shadow
+- dennis
+- chief fitzgerald
+- axe
+- ricco
+--------------------------------------------------
+
+Analysis for: bad lieutenant
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- elderly black woman
+- fence
+--------------------------------------------------
+
+Analysis for: badlands
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- roughneck
+- visitor
+- father
+--------------------------------------------------
+
+Analysis for: bamboozled
+Cornell characters: 19
+TMDB matched characters: 11
+Missing characters: 8
+Characters not found in TMDB:
+- cheeba
+- gary byrd
+- big black
+- audience
+- manray
+- sleep 'n eat
+- 1/16th black
+- tavis smiley
+--------------------------------------------------
+
+Analysis for: barry lyndon
+Cornell characters: 22
+TMDB matched characters: 4
+Missing characters: 18
+Characters not found in TMDB:
+- captain galgenstein
+- mrs. o'reilly
+- captain o'reilly
+- armed gentleman
+- dorothy
+- lord west
+- roderick
+- countess
+- count
+- sir william
+- valdez
+- minister galgenstein
+- prussian officer
+- captain best
+- newcombe
+- henri
+- harry
+- michael
+--------------------------------------------------
+
+Analysis for: barton fink
+Cornell characters: 12
+TMDB matched characters: 10
+Missing characters: 2
+Characters not found in TMDB:
+- clerk
+- lipnik
+--------------------------------------------------
+
+Analysis for: basic
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- sergeant
+- bartender
+- childs
+- the cadets
+--------------------------------------------------
+
+Analysis for: basic instinct
+Cornell characters: 11
+TMDB matched characters: 7
+Missing characters: 4
+Characters not found in TMDB:
+- corrigan
+- lt. walker
+- an i.a. man
+- the woman
+--------------------------------------------------
+
+Analysis for: basquiat
+Cornell characters: 23
+TMDB matched characters: 16
+Missing characters: 7
+Characters not found in TMDB:
+- toxic
+- driver
+- artist #2
+- greg
+- george
+- rammellzee
+- chris
+--------------------------------------------------
+
+Analysis for: batman
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- batman
+- nick
+- driver
+--------------------------------------------------
+
+Analysis for: batman and robin
+Cornell characters: 13
+TMDB matched characters: 2
+Missing characters: 11
+Characters not found in TMDB:
+- batman
+- barbara
+- freeze
+- ivy
+- alfred
+- julie
+- pamela
+- ms. b. haven
+- robin
+- woodrue
+- batgirl
+--------------------------------------------------
+
+Analysis for: batman forever
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- batman
+- edward
+--------------------------------------------------
+
+Analysis for: batman returns
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- batman
+- chip
+- selina
+--------------------------------------------------
+
+Analysis for: bean
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- annie
+- reynolds
+- bernie
+- doctor jacobson
+--------------------------------------------------
+
+Analysis for: beavis and butt-head do america
+Cornell characters: 9
+TMDB matched characters: 5
+Missing characters: 4
+Characters not found in TMDB:
+- martha
+- beavis
+- beavis/cornholio
+- dumb guy
+--------------------------------------------------
+
+Analysis for: beetle juice
+Cornell characters: 11
+TMDB matched characters: 11
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: being john malkovich
+Cornell characters: 19
+TMDB matched characters: 12
+Missing characters: 7
+Characters not found in TMDB:
+- flemmer
+- kevin bacon
+- cabbie
+- erroll
+- elijah
+- woman #1
+- harry s. truman puppet
+--------------------------------------------------
+
+Analysis for: being there
+Cornell characters: 28
+TMDB matched characters: 16
+Missing characters: 12
+Characters not found in TMDB:
+- smythe
+- eve
+- dupont
+- billings
+- jeffrey
+- mrs. aubrey
+- hull
+- sophie
+- kinney
+- dennis' voice
+- novogrod
+- stiegler
+--------------------------------------------------
+
+Analysis for: beloved
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- white man
+--------------------------------------------------
+
+Analysis for: big fish
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- edward
+--------------------------------------------------
+
+Analysis for: black rain
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- connie
+- ich
+- kobo
+--------------------------------------------------
+
+Analysis for: black snake moan
+Cornell characters: 15
+TMDB matched characters: 14
+Missing characters: 1
+Characters not found in TMDB:
+- r.l.
+--------------------------------------------------
+
+Analysis for: blade
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- miracia
+--------------------------------------------------
+
+Analysis for: blade ii
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- stevens
+--------------------------------------------------
+
+Analysis for: blade runner
+Cornell characters: 18
+TMDB matched characters: 12
+Missing characters: 6
+Characters not found in TMDB:
+- esper
+- deckard's voice
+- mary
+- voice
+- salome
+- wheeler
+--------------------------------------------------
+
+Analysis for: blast from the past
+Cornell characters: 21
+TMDB matched characters: 19
+Missing characters: 2
+Characters not found in TMDB:
+- street walker
+- tower
+--------------------------------------------------
+
+Analysis for: blood simple.
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- rhodes
+- woman
+- kyle
+--------------------------------------------------
+
+Analysis for: blow
+Cornell characters: 22
+TMDB matched characters: 18
+Missing characters: 4
+Characters not found in TMDB:
+- garcia
+- prosecutor
+- santiago
+- calibanos
+--------------------------------------------------
+
+Analysis for: blue velvet
+Cornell characters: 14
+TMDB matched characters: 13
+Missing characters: 1
+Characters not found in TMDB:
+- f.b.i. man
+--------------------------------------------------
+
+Analysis for: body of evidence
+Cornell characters: 19
+TMDB matched characters: 8
+Missing characters: 11
+Characters not found in TMDB:
+- ester
+- troxell
+- cardenas
+- miss sellers
+- dr. paley
+- sattler
+- judge burnham
+- dr. wong
+- koehler
+- dr. trammel
+- rebecca
+--------------------------------------------------
+
+Analysis for: bones
+Cornell characters: 15
+TMDB matched characters: 13
+Missing characters: 2
+Characters not found in TMDB:
+- sal
+- cinnabar
+--------------------------------------------------
+
+Analysis for: book of shadows: blair witch 2
+Cornell characters: 9
+TMDB matched characters: 1
+Missing characters: 8
+Characters not found in TMDB:
+- intern
+- domini
+- cotter
+- anna
+- sid
+- woman's voice
+- nick
+- man's voice
+--------------------------------------------------
+
+Analysis for: bottle rocket
+Cornell characters: 13
+TMDB matched characters: 10
+Missing characters: 3
+Characters not found in TMDB:
+- mr. henry
+- future man
+- little richard
+--------------------------------------------------
+
+Analysis for: bound
+Cornell characters: 7
+TMDB matched characters: 7
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: braveheart
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- stephen
+- leader
+- marion
+- longshanks
+--------------------------------------------------
+
+Analysis for: brazil
+Cornell characters: 20
+TMDB matched characters: 11
+Missing characters: 9
+Characters not found in TMDB:
+- gent
+- mrs terrain
+- mrs buttle
+- girl
+- mother
+- kurtzman
+- phone voice
+- girl buttle
+- matthews
+--------------------------------------------------
+
+Analysis for: bringing out the dead
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- rose/mary
+- capt. barney
+- walls
+- radio dispatcher
+--------------------------------------------------
+
+Analysis for: broadcast news
+Cornell characters: 16
+TMDB matched characters: 10
+Missing characters: 6
+Characters not found in TMDB:
+- j.d.
+- bobbie
+- wife
+- young woman
+- buddy
+- father
+--------------------------------------------------
+
+Analysis for: buffy the vampire slayer
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- wally
+- man
+- girl
+--------------------------------------------------
+
+Analysis for: bull durham
+Cornell characters: 16
+TMDB matched characters: 13
+Missing characters: 3
+Characters not found in TMDB:
+- nuke's father
+- jackson
+- father
+--------------------------------------------------
+
+Analysis for: casablanca
+Cornell characters: 15
+TMDB matched characters: 14
+Missing characters: 1
+Characters not found in TMDB:
+- european
+--------------------------------------------------
+
+Analysis for: casino
+Cornell characters: 44
+TMDB matched characters: 23
+Missing characters: 21
+Characters not found in TMDB:
+- female newscaster
+- cop #1
+- austin
+- detective johnson
+- piscano's wife
+- little nicky
+- hotel receptionist
+- joe
+- fbi agent #10
+- security guard #1
+- ace
+- frankie avalon
+- stage manager
+- signaler
+- oscar
+- tony
+- al
+- eddy
+- high roller
+- fbi agent #2
+- cop #2
+--------------------------------------------------
+
+Analysis for: cast away
+Cornell characters: 16
+TMDB matched characters: 5
+Missing characters: 11
+Characters not found in TMDB:
+- leslie
+- technician
+- erica
+- badchuck
+- voice
+- doctor
+- chuck/captain
+- goodchuck
+- roger
+- mom
+- aleksei
+--------------------------------------------------
+
+Analysis for: catwoman
+Cornell characters: 13
+TMDB matched characters: 2
+Missing characters: 11
+Characters not found in TMDB:
+- cactus
+- adonis
+- captain god
+- brock
+- female exec cat
+- lane
+- spooky
+- frank
+- library clerk
+- selina
+- housecat
+--------------------------------------------------
+
+Analysis for: charade
+Cornell characters: 15
+TMDB matched characters: 7
+Missing characters: 8
+Characters not found in TMDB:
+- reggie's voice
+- bartholomew's voice
+- bartholomew
+- reggie
+- dyle
+- félix
+- cruikshank
+- adam
+--------------------------------------------------
+
+Analysis for: cherry falls
+Cornell characters: 23
+TMDB matched characters: 15
+Missing characters: 8
+Characters not found in TMDB:
+- jimmy
+- killer
+- dad
+- miss dunlop
+- policeman
+- nerd 2
+- nerd 1
+- caretaker
+--------------------------------------------------
+
+Analysis for: chill factor
+Cornell characters: 19
+TMDB matched characters: 14
+Missing characters: 5
+Characters not found in TMDB:
+- mason & arlo +++$+++
+- scene
+- big ranger
+- sweeney +++$+++
+- arlo +++$+++
+--------------------------------------------------
+
+Analysis for: chinatown
+Cornell characters: 26
+TMDB matched characters: 12
+Missing characters: 14
+Characters not found in TMDB:
+- secretary
+- other customer
+- mrs. mulwray
+- ida's voice
+- sophie's voice
+- young woman
+- morty
+- walsh's voice
+- cross' voice
+- pilot
+- rainmaker
+- voice on phone
+- the boy
+- barney
+--------------------------------------------------
+
+Analysis for: citizen kane
+Cornell characters: 21
+TMDB matched characters: 12
+Missing characters: 9
+Characters not found in TMDB:
+- the president
+- third newspaperman
+- rogers
+- matisti
+- kane sr.
+- the captain
+- thompson
+- mrs. kane
+- reilly
+--------------------------------------------------
+
+Analysis for: clerks.
+Cornell characters: 21
+TMDB matched characters: 11
+Missing characters: 10
+Characters not found in TMDB:
+- heather
+- suited man
+- john
+- girl 2
+- v.a. customer
+- girl 1
+- activist
+- indecisive customer
+- willam
+- impatient customer
+--------------------------------------------------
+
+Analysis for: cliffhanger
+Cornell characters: 13
+TMDB matched characters: 13
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: collateral
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- muldoon
+- heller
+- kid #1
+- cop #1
+- dmitri
+--------------------------------------------------
+
+Analysis for: confidence
+Cornell characters: 17
+TMDB matched characters: 10
+Missing characters: 7
+Characters not found in TMDB:
+- sobozinski
+- moonan
+- rottovich
+- king pin
+- gillette
+- butch
+- suits
+--------------------------------------------------
+
+Analysis for: conspiracy theory
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- liza
+--------------------------------------------------
+
+Analysis for: contact
+Cornell characters: 15
+TMDB matched characters: 10
+Missing characters: 5
+Characters not found in TMDB:
+- a.t.l.
+- jean-claude
+- president lasker
+- peter
+- lunacharsky
+--------------------------------------------------
+
+Analysis for: cool hand luke
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- dogboy
+--------------------------------------------------
+
+Analysis for: copycat
+Cornell characters: 14
+TMDB matched characters: 12
+Missing characters: 2
+Characters not found in TMDB:
+- saks
+- nikko
+--------------------------------------------------
+
+Analysis for: crime spree
+Cornell characters: 20
+TMDB matched characters: 12
+Missing characters: 8
+Characters not found in TMDB:
+- zero
+- joey "two tons"
+- uniformed cop
+- zammito
+- bonanno
+- nicky "the rake"
+- bobby beans
+- agent hadley
+--------------------------------------------------
+
+Analysis for: crouching tiger, hidden dragon
+Cornell characters: 15
+TMDB matched characters: 10
+Missing characters: 5
+Characters not found in TMDB:
+- figure in black
+- madam yu
+- governess
+- figure
+- aunt wu
+--------------------------------------------------
+
+Analysis for: croupier
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- ross
+- jack sr.
+- lucy
+- man
+--------------------------------------------------
+
+Analysis for: cruel intentions
+Cornell characters: 14
+TMDB matched characters: 6
+Missing characters: 8
+Characters not found in TMDB:
+- mrs. sugerman
+- mrs. caldwell
+- aunt helen
+- sebastian
+- mrs. o'shea
+- dr. greenbaum
+- rachel
+- night doorman
+--------------------------------------------------
+
+Analysis for: dark city
+Cornell characters: 12
+TMDB matched characters: 5
+Missing characters: 7
+Characters not found in TMDB:
+- wife
+- barber
+- miss crenshaw
+- priest
+- thompson
+- white
+- mister black
+--------------------------------------------------
+
+Analysis for: dark star
+Cornell characters: 7
+TMDB matched characters: 7
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: dave
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- mitchell
+--------------------------------------------------
+
+Analysis for: day of the dead
+Cornell characters: 14
+TMDB matched characters: 5
+Missing characters: 9
+Characters not found in TMDB:
+- tricks
+- julie
+- chico
+- toby
+- mary
+- gasparilla
+- tony
+- diesel
+- maria
+--------------------------------------------------
+
+Analysis for: dead poets society
+Cornell characters: 15
+TMDB matched characters: 15
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: deep rising
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: demolition man
+Cornell characters: 12
+TMDB matched characters: 1
+Missing characters: 11
+Characters not found in TMDB:
+- kimberly
+- cassy
+- bennett
+- sanchez
+- willy
+- whore
+- peebles
+- wade
+- sheppard
+- dubbs
+- gallagher
+--------------------------------------------------
+
+Analysis for: detroit rock city
+Cornell characters: 16
+TMDB matched characters: 13
+Missing characters: 3
+Characters not found in TMDB:
+- simple simon's voice
+- jam
+- trip's voice
+--------------------------------------------------
+
+Analysis for: die hard
+Cornell characters: 11
+TMDB matched characters: 11
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: do the right thing
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- sal
+- buggin' out
+- korean clerk
+--------------------------------------------------
+
+Analysis for: dog day afternoon
+Cornell characters: 19
+TMDB matched characters: 11
+Missing characters: 8
+Characters not found in TMDB:
+- vi
+- tv newsman
+- pauline
+- jackie
+- man
+- newsman
+- jesus freak
+- heidi
+--------------------------------------------------
+
+Analysis for: domino
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- cigliuti
+- weiss
+- ziering
+- keg president
+- green
+--------------------------------------------------
+
+Analysis for: donnie darko
+Cornell characters: 19
+TMDB matched characters: 14
+Missing characters: 5
+Characters not found in TMDB:
+- dr. thurman
+- ms. pomeroy
+- dr. monnitoff
+- ms. farmer
+- audience
+--------------------------------------------------
+
+Analysis for: drop dead gorgeous
+Cornell characters: 20
+TMDB matched characters: 17
+Missing characters: 3
+Characters not found in TMDB:
+- fry girl #1
+- mr. larson
+- becky
+--------------------------------------------------
+
+Analysis for: duck soup
+Cornell characters: 8
+TMDB matched characters: 4
+Missing characters: 4
+Characters not found in TMDB:
+- ensemble
+- chico
+- all
+- groucho
+--------------------------------------------------
+
+Analysis for: dumb and dumberer: when harry met lloyd
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- ten year-old kid
+- moffit
+- cale
+--------------------------------------------------
+
+Analysis for: dune
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- emperor
+- navigator
+- reverend mother
+- duke leto
+--------------------------------------------------
+
+Analysis for: ed wood
+Cornell characters: 22
+TMDB matched characters: 20
+Missing characters: 2
+Characters not found in TMDB:
+- ed's voice
+- norma
+--------------------------------------------------
+
+Analysis for: edtv
+Cornell characters: 19
+TMDB matched characters: 15
+Missing characters: 4
+Characters not found in TMDB:
+- scharlach
+- hank
+- woman
+- mr. scharlach
+--------------------------------------------------
+
+Analysis for: election
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- class
+- ms. hoy
+- sherry
+- miss beeder
+--------------------------------------------------
+
+Analysis for: enemy of the state
+Cornell characters: 35
+TMDB matched characters: 18
+Missing characters: 17
+Characters not found in TMDB:
+- hamersley
+- meg
+- depinto
+- morelos
+- stacy
+- levin
+- marshal
+- "brill"
+- desk clerk
+- man
+- l.t.
+- patrick
+- waiter
+- man's voice
+- senator albert
+- sales clerk
+- alfonso
+--------------------------------------------------
+
+Analysis for: entrapment
+Cornell characters: 5
+TMDB matched characters: 2
+Missing characters: 3
+Characters not found in TMDB:
+- mac
+- qui
+- gin
+--------------------------------------------------
+
+Analysis for: erik the viking
+Cornell characters: 19
+TMDB matched characters: 15
+Missing characters: 4
+Characters not found in TMDB:
+- grandfather
+- odin
+- girl
+- grandad
+--------------------------------------------------
+
+Analysis for: erin brockovich
+Cornell characters: 22
+TMDB matched characters: 17
+Missing characters: 5
+Characters not found in TMDB:
+- ross
+- doctor
+- paulsen
+- jane
+- baum
+--------------------------------------------------
+
+Analysis for: escape from l.a.
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- pendejo bob
+- spinal
+- map to the stars eddie
+--------------------------------------------------
+
+Analysis for: escape from the planet of the apes
+Cornell characters: 7
+TMDB matched characters: 5
+Missing characters: 2
+Characters not found in TMDB:
+- stevie
+- colonel
+--------------------------------------------------
+
+Analysis for: eternal sunshine of the spotless mind
+Cornell characters: 14
+TMDB matched characters: 7
+Missing characters: 7
+Characters not found in TMDB:
+- receptionist
+- stan's voice
+- old woman
+- naomi's voice
+- naomi
+- voice-over
+- clementine's voice
+--------------------------------------------------
+
+Analysis for: even cowgirls get the blues
+Cornell characters: 7
+TMDB matched characters: 6
+Missing characters: 1
+Characters not found in TMDB:
+- jelly
+--------------------------------------------------
+
+Analysis for: event horizon
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- dj
+- lyle
+- hollis
+--------------------------------------------------
+
+Analysis for: excalibur
+Cornell characters: 11
+TMDB matched characters: 9
+Missing characters: 2
+Characters not found in TMDB:
+- sir ector
+- figure
+--------------------------------------------------
+
+Analysis for: face/off
+Cornell characters: 15
+TMDB matched characters: 13
+Missing characters: 2
+Characters not found in TMDB:
+- waxy
+- dr. gardner
+--------------------------------------------------
+
+Analysis for: fantastic four
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- the thing
+--------------------------------------------------
+
+Analysis for: fantastic voyage
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- man
+- michaels' voice
+- owens' voice
+--------------------------------------------------
+
+Analysis for: fargo
+Cornell characters: 25
+TMDB matched characters: 16
+Missing characters: 9
+Characters not found in TMDB:
+- younger man
+- hooker two
+- woman
+- detective sibert
+- scott
+- hooker one
+- voice
+- scott's voice
+- gary
+--------------------------------------------------
+
+Analysis for: fast times at ridgemont high
+Cornell characters: 18
+TMDB matched characters: 13
+Missing characters: 5
+Characters not found in TMDB:
+- griffin
+- the rat
+- waitress
+- l.c.
+- harold
+--------------------------------------------------
+
+Analysis for: fear and loathing in las vegas
+Cornell characters: 8
+TMDB matched characters: 6
+Missing characters: 2
+Characters not found in TMDB:
+- proprietor
+- da
+--------------------------------------------------
+
+Analysis for: fight club
+Cornell characters: 17
+TMDB matched characters: 9
+Missing characters: 8
+Characters not found in TMDB:
+- tyler's voice
+- bob
+- bandaged proprietor
+- jack
+- security tfm
+- voice
+- wounded bartender
+- boss
+--------------------------------------------------
+
+Analysis for: final destination
+Cornell characters: 7
+TMDB matched characters: 6
+Missing characters: 1
+Characters not found in TMDB:
+- mr. bludworth
+--------------------------------------------------
+
+Analysis for: final destination 2
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- jorge
+- mr. burroughs
+--------------------------------------------------
+
+Analysis for: five easy pieces
+Cornell characters: 14
+TMDB matched characters: 10
+Missing characters: 4
+Characters not found in TMDB:
+- driver
+- bobby
+- second engineer
+- tita
+--------------------------------------------------
+
+Analysis for: five feet high and rising
+Cornell characters: 9
+TMDB matched characters: 3
+Missing characters: 6
+Characters not found in TMDB:
+- jenette
+- michelle
+- aaron
+- hector
+- carl0s
+- donna
+--------------------------------------------------
+
+Analysis for: fletch
+Cornell characters: 22
+TMDB matched characters: 11
+Missing characters: 11
+Characters not found in TMDB:
+- cummings
+- mr. stanwyk
+- mr. underhill
+- gillett
+- fletch
+- records nurse
+- dr. dolen
+- man
+- mrs. stanwyk
+- velma
+- margie
+--------------------------------------------------
+
+Analysis for: frances
+Cornell characters: 29
+TMDB matched characters: 21
+Missing characters: 8
+Characters not found in TMDB:
+- older nurse
+- young man
+- judge hillier's wife
+- odets
+- claire
+- york & crowd
+- young nurse
+- fire chief
+--------------------------------------------------
+
+Analysis for: frankenstein
+Cornell characters: 12
+TMDB matched characters: 4
+Missing characters: 8
+Characters not found in TMDB:
+- grandfather
+- creature
+- walton
+- father
+- prosecutor
+- justine
+- krempe
+- grigori
+--------------------------------------------------
+
+Analysis for: frequency
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- desk sgt.
+--------------------------------------------------
+
+Analysis for: friday the 13th part iii
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- derek
+--------------------------------------------------
+
+Analysis for: friday the 13th part viii: jason takes manhattan
+Cornell characters: 11
+TMDB matched characters: 7
+Missing characters: 4
+Characters not found in TMDB:
+- suzy
+- radio officer
+- young rennie
+- miss van deusen
+--------------------------------------------------
+
+Analysis for: from dusk till dawn
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- kelly houge
+- border guard
+- stanley chase
+--------------------------------------------------
+
+Analysis for: g.i. jane
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- dehaven's aide
+- flag officer #1
+- slutnik
+- the spook
+- the chief
+--------------------------------------------------
+
+Analysis for: galaxy quest
+Cornell characters: 14
+TMDB matched characters: 12
+Missing characters: 2
+Characters not found in TMDB:
+- computer
+- lathe
+--------------------------------------------------
+
+Analysis for: gandhi
+Cornell characters: 15
+TMDB matched characters: 14
+Missing characters: 1
+Characters not found in TMDB:
+- ba
+--------------------------------------------------
+
+Analysis for: gattaca
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- german
+- hugo
+- investigator
+- eugene
+- maria
+--------------------------------------------------
+
+Analysis for: get carter
+Cornell characters: 18
+TMDB matched characters: 17
+Missing characters: 1
+Characters not found in TMDB:
+- billy
+--------------------------------------------------
+
+Analysis for: get shorty
+Cornell characters: 18
+TMDB matched characters: 15
+Missing characters: 3
+Characters not found in TMDB:
+- ray bones
+- director
+- bones
+--------------------------------------------------
+
+Analysis for: ghost ship
+Cornell characters: 7
+TMDB matched characters: 4
+Missing characters: 3
+Characters not found in TMDB:
+- coastguard dispatcher
+- vasili
+- riveter
+--------------------------------------------------
+
+Analysis for: ghost world
+Cornell characters: 19
+TMDB matched characters: 13
+Missing characters: 6
+Characters not found in TMDB:
+- gerrold
+- dad
+- melorra
+- therapist
+- john
+- man
+--------------------------------------------------
+
+Analysis for: ghostbusters
+Cornell characters: 19
+TMDB matched characters: 1
+Missing characters: 18
+Characters not found in TMDB:
+- second bum
+- louis
+- coed
+- winston
+- stantz
+- janine
+- spengler
+- dana
+- sophomore
+- dean yaeger
+- head librarian
+- street punk
+- peck
+- bride
+- manager
+- groom
+- first bum
+- venkman
+--------------------------------------------------
+
+Analysis for: ghostbusters ii
+Cornell characters: 16
+TMDB matched characters: 15
+Missing characters: 1
+Characters not found in TMDB:
+- sherman
+--------------------------------------------------
+
+Analysis for: gladiator
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- tribuus
+- cos
+- narcissus
+- themis
+- selene
+--------------------------------------------------
+
+Analysis for: glengarry glen ross
+Cornell characters: 7
+TMDB matched characters: 6
+Missing characters: 1
+Characters not found in TMDB:
+- baylen
+--------------------------------------------------
+
+Analysis for: gods and monsters
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- clay
+--------------------------------------------------
+
+Analysis for: godzilla
+Cornell characters: 12
+TMDB matched characters: 1
+Missing characters: 11
+Characters not found in TMDB:
+- caiman
+- elsie
+- lucy
+- raymond
+- jean-claude
+- lt. anderson
+- audrey
+- mayor
+- nick
+- major hicks
+- animal
+--------------------------------------------------
+
+Analysis for: gone in sixty seconds
+Cornell characters: 16
+TMDB matched characters: 12
+Missing characters: 4
+Characters not found in TMDB:
+- tom
+- judge croft
+- detective castlebeck
+- sway
+--------------------------------------------------
+
+Analysis for: good will hunting
+Cornell characters: 18
+TMDB matched characters: 14
+Missing characters: 4
+Characters not found in TMDB:
+- terry
+- all
+- pekec
+- dytress
+--------------------------------------------------
+
+Analysis for: goodfellas
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- vario
+- toddy
+- marty
+- robin
+--------------------------------------------------
+
+Analysis for: grand hotel
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- clerk
+- a man
+- flaemmchen
+--------------------------------------------------
+
+Analysis for: grosse pointe blank
+Cornell characters: 19
+TMDB matched characters: 12
+Missing characters: 7
+Characters not found in TMDB:
+- southtec guard
+- driver
+- club member #1
+- dan
+- mr. newberry
+- arlene
+- club member #2
+--------------------------------------------------
+
+Analysis for: hackers
+Cornell characters: 18
+TMDB matched characters: 10
+Missing characters: 8
+Characters not found in TMDB:
+- plague
+- mrs. murphy
+- nikon
+- agent bob
+- cereal
+- kid
+- agent ray
+- operator
+--------------------------------------------------
+
+Analysis for: halloween
+Cornell characters: 13
+TMDB matched characters: 10
+Missing characters: 3
+Characters not found in TMDB:
+- sister
+- marion
+- boyfriend
+--------------------------------------------------
+
+Analysis for: halloween 4: the return of michael myers
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- guy
+- lindsay
+- cop
+--------------------------------------------------
+
+Analysis for: halloween h20: 20 years later
+Cornell characters: 12
+TMDB matched characters: 5
+Missing characters: 7
+Characters not found in TMDB:
+- blake
+- pamela
+- eddie
+- carter
+- linda
+- shane
+- deputy clark
+--------------------------------------------------
+
+Analysis for: halloween iii: season of the witch
+Cornell characters: 16
+TMDB matched characters: 1
+Missing characters: 15
+Characters not found in TMDB:
+- boy #2
+- johnny boy
+- teresa
+- giovanni
+- boys
+- oscar
+- tony
+- diane
+- sal
+- jimmy
+- joey
+- mario
+- boy
+- michael
+- boy #1
+--------------------------------------------------
+
+Analysis for: halloween: the curse of michael myers
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- harry simms
+--------------------------------------------------
+
+Analysis for: hannah and her sisters
+Cornell characters: 18
+TMDB matched characters: 17
+Missing characters: 1
+Characters not found in TMDB:
+- krishna leader
+--------------------------------------------------
+
+Analysis for: hannibal
+Cornell characters: 22
+TMDB matched characters: 9
+Missing characters: 13
+Characters not found in TMDB:
+- committee member
+- franklin
+- superior
+- gentleman
+- fell
+- anna
+- crawford
+- mrs. pazzi
+- cop one
+- lechter
+- voice on phone
+- psychiatrist
+- mapp
+--------------------------------------------------
+
+Analysis for: happy birthday, wanda june
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- von konigswald
+- woodly
+--------------------------------------------------
+
+Analysis for: happy campers
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- andrew
+- wichita                                            ]
+- eric
+- wendy                                              ]
+--------------------------------------------------
+
+Analysis for: hardcore
+Cornell characters: 19
+TMDB matched characters: 17
+Missing characters: 2
+Characters not found in TMDB:
+- black stud
+- girl at the window
+--------------------------------------------------
+
+Analysis for: harold and maude
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- cop
+--------------------------------------------------
+
+Analysis for: heathers
+Cornell characters: 15
+TMDB matched characters: 10
+Missing characters: 5
+Characters not found in TMDB:
+- j.d.
+- dad
+- earl
+- whitney james
+- mom
+--------------------------------------------------
+
+Analysis for: heavenly creatures
+Cornell characters: 4
+TMDB matched characters: 3
+Missing characters: 1
+Characters not found in TMDB:
+- honora
+--------------------------------------------------
+
+Analysis for: hellboy
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- abe's voice
+- broom
+- grigory
+--------------------------------------------------
+
+Analysis for: hellraiser
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- 2nd man
+- prudhoe
+- 1st man
+--------------------------------------------------
+
+Analysis for: hellraiser iii: hell on earth
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- elliott
+- mama
+- jp
+--------------------------------------------------
+
+Analysis for: hellraiser: hellseeker
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- priest
+- larry
+- old man
+--------------------------------------------------
+
+Analysis for: hero
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- duke
+- bernie
+- deakins
+--------------------------------------------------
+
+Analysis for: hider in the house
+Cornell characters: 13
+TMDB matched characters: 5
+Missing characters: 8
+Characters not found in TMDB:
+- hider
+- secretary
+- therapist
+- neil's friend #1
+- real-estate lady
+- bert
+- salesgirl
+- bully
+--------------------------------------------------
+
+Analysis for: high fidelity
+Cornell characters: 14
+TMDB matched characters: 13
+Missing characters: 1
+Characters not found in TMDB:
+- mom
+--------------------------------------------------
+
+Analysis for: highlander
+Cornell characters: 29
+TMDB matched characters: 3
+Missing characters: 26
+Characters not found in TMDB:
+- inspector
+- dupont
+- katherine
+- knight
+- kidell
+- mother
+- uncle joe
+- kahn
+- romirez
+- traveller
+- mr. north
+- major
+- librarian
+- knight's voice
+- desk officer
+- mara
+- conor
+- brenna
+- dennis
+- examiner
+- supervisor
+- taupin
+- intruder
+- tavern man #2
+- grandson
+- mulet
+--------------------------------------------------
+
+Analysis for: highlander iii: the sorcerer
+Cornell characters: 20
+TMDB matched characters: 3
+Missing characters: 17
+Characters not found in TMDB:
+- hooded man
+- farmer
+- detective greley
+- reporter
+- isabelle
+- cavanaugh
+- mccleod
+- old man
+- teller
+- professor dajorski
+- mr. parker
+- kilvara
+- robbery detective
+- rachel
+- bedsoe
+- vieira
+- jennifer
+--------------------------------------------------
+
+Analysis for: his girl friday
+Cornell characters: 22
+TMDB matched characters: 17
+Missing characters: 5
+Characters not found in TMDB:
+- pinkus
+- hartman
+- louis
+- lieutenant
+- schwartz
+--------------------------------------------------
+
+Analysis for: hope and glory
+Cornell characters: 11
+TMDB matched characters: 11
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: hostage
+Cornell characters: 28
+TMDB matched characters: 11
+Missing characters: 17
+Characters not found in TMDB:
+- seymore
+- mikkelson's voice
+- tuzee
+- marion
+- klaus
+- martin
+- mr. jones
+- benza
+- the watchman's voice
+- louise's voice
+- castellano
+- howell
+- fischer
+- thomas
+- anders' voice
+- beldone
+- dill
+--------------------------------------------------
+
+Analysis for: hotel rwanda
+Cornell characters: 20
+TMDB matched characters: 10
+Missing characters: 10
+Characters not found in TMDB:
+- mr. garindi
+- gloria
+- militiaman #1
+- refugee
+- jock
+- president
+- bik
+- xavier
+- sabena president
+- zozo
+--------------------------------------------------
+
+Analysis for: house of 1000 corpses
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- capt. spaulding
+- mr. willis
+- cashier
+--------------------------------------------------
+
+Analysis for: house on haunted hill
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- voice
+- jenzen
+- kirsten
+--------------------------------------------------
+
+Analysis for: hudson hawk
+Cornell characters: 12
+TMDB matched characters: 10
+Missing characters: 2
+Characters not found in TMDB:
+- hawk
+- alex
+--------------------------------------------------
+
+Analysis for: human nature
+Cornell characters: 10
+TMDB matched characters: 5
+Missing characters: 5
+Characters not found in TMDB:
+- older woman
+- female roommate
+- father
+- rose
+- mother
+--------------------------------------------------
+
+Analysis for: i am legend
+Cornell characters: 5
+TMDB matched characters: 1
+Missing characters: 4
+Characters not found in TMDB:
+- virginia
+- french voice
+- emma
+- old man
+--------------------------------------------------
+
+Analysis for: i still know what you did last summer
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- derrick
+- mac
+- mark
+--------------------------------------------------
+
+Analysis for: i walked with a zombie
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- wilkens
+- jeffries
+--------------------------------------------------
+
+Analysis for: independence day
+Cornell characters: 19
+TMDB matched characters: 13
+Missing characters: 6
+Characters not found in TMDB:
+- general grey
+- margaret
+- moishe
+- steve
+- okun/alien
+- nimziki
+--------------------------------------------------
+
+Analysis for: indiana jones and the last crusade
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- kazim
+--------------------------------------------------
+
+Analysis for: indiana jones and the temple of doom
+Cornell characters: 8
+TMDB matched characters: 7
+Missing characters: 1
+Characters not found in TMDB:
+- capt. blumburtt
+--------------------------------------------------
+
+Analysis for: insomnia
+Cornell characters: 10
+TMDB matched characters: 10
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: interview with the vampire: the vampire chronicles
+Cornell characters: 6
+TMDB matched characters: 6
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: intolerable cruelty
+Cornell characters: 18
+TMDB matched characters: 10
+Missing characters: 8
+Characters not found in TMDB:
+- patricia
+- kenneth
+- marylin
+- woman
+- gangster
+- voice
+- ruth
+- witness
+--------------------------------------------------
+
+Analysis for: invaders from mars
+Cornell characters: 6
+TMDB matched characters: 1
+Missing characters: 5
+Characters not found in TMDB:
+- principal
+- jimmy
+- dad
+- dad's voice
+- mom
+--------------------------------------------------
+
+Analysis for: it happened one night
+Cornell characters: 25
+TMDB matched characters: 9
+Missing characters: 16
+Characters not found in TMDB:
+- old lady
+- secretary
+- ellie
+- wife
+- peter's voice
+- first pilot
+- guard
+- owner
+- boy
+- mary
+- ellie's voice
+- captain
+- first policeman
+- king
+- second pilot
+- operator
+--------------------------------------------------
+
+Analysis for: it's a wonderful life
+Cornell characters: 30
+TMDB matched characters: 22
+Missing characters: 8
+Characters not found in TMDB:
+- pop
+- teller
+- franklin's voice
+- ma bailey
+- sam's voice
+- joseph's voice
+- mother
+- clarence's voice
+--------------------------------------------------
+
+Analysis for: jackie brown
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- nicolet
+--------------------------------------------------
+
+Analysis for: jacob's ladder
+Cornell characters: 26
+TMDB matched characters: 23
+Missing characters: 3
+Characters not found in TMDB:
+- stern
+- voice
+- "doctor"
+--------------------------------------------------
+
+Analysis for: jason goes to hell: the final friday
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- randy
+--------------------------------------------------
+
+Analysis for: jason lives: friday the 13th part vi
+Cornell characters: 14
+TMDB matched characters: 13
+Missing characters: 1
+Characters not found in TMDB:
+- jill
+--------------------------------------------------
+
+Analysis for: jason x
+Cornell characters: 14
+TMDB matched characters: 8
+Missing characters: 6
+Characters not found in TMDB:
+- rizzo
+- yllo
+- kkinsa
+- boeman
+- delongpre
+- thorgan
+--------------------------------------------------
+
+Analysis for: jaws
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- charlie
+- denherder
+- ellen's voice
+--------------------------------------------------
+
+Analysis for: jaws 2
+Cornell characters: 25
+TMDB matched characters: 16
+Missing characters: 9
+Characters not found in TMDB:
+- phil
+- lucy
+- ed
+- red
+- diane
+- terry
+- patrick
+- patrol voice
+- polo
+--------------------------------------------------
+
+Analysis for: jaws 3-d
+Cornell characters: 16
+TMDB matched characters: 8
+Missing characters: 8
+Characters not found in TMDB:
+- ike
+- harris
+- woman
+- tod
+- brian
+- ruth
+- shelly
+- operator
+--------------------------------------------------
+
+Analysis for: jaws: the revenge
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- hooper
+--------------------------------------------------
+
+Analysis for: jennifer eight
+Cornell characters: 10
+TMDB matched characters: 10
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: jerry maguire
+Cornell characters: 15
+TMDB matched characters: 14
+Missing characters: 1
+Characters not found in TMDB:
+- cush
+--------------------------------------------------
+
+Analysis for: jfk
+Cornell characters: 34
+TMDB matched characters: 29
+Missing characters: 5
+Characters not found in TMDB:
+- liz
+- lawyer
+- miller
+- male voice
+- official
+--------------------------------------------------
+
+Analysis for: juno
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- ultrasound tech
+- girl lab partner
+--------------------------------------------------
+
+Analysis for: jurassic park
+Cornell characters: 13
+TMDB matched characters: 13
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: jurassic park iii
+Cornell characters: 6
+TMDB matched characters: 6
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: kafka
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- pockmarked anarchist
+- bearded anarchist
+- chief clerk
+- assistants
+- oskar
+--------------------------------------------------
+
+Analysis for: kalifornia
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: kids
+Cornell characters: 20
+TMDB matched characters: 16
+Missing characters: 4
+Characters not found in TMDB:
+- white nurse
+- korean store owner
+- black nurse
+- mom
+--------------------------------------------------
+
+Analysis for: king kong
+Cornell characters: 7
+TMDB matched characters: 2
+Missing characters: 5
+Characters not found in TMDB:
+- denham
+- ann
+- mr ginting
+- englehorn
+- lord darrow
+--------------------------------------------------
+
+Analysis for: klute
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- ross
+- streiger
+- lela
+- cable's voice
+- mr. faber
+--------------------------------------------------
+
+Analysis for: knight moves
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- woman's voice
+- woman
+- caller
+--------------------------------------------------
+
+Analysis for: kramer vs. kramer
+Cornell characters: 17
+TMDB matched characters: 11
+Missing characters: 6
+Characters not found in TMDB:
+- secretary
+- alvarez
+- woman's voice
+- shaunessy's voice
+- thelma
+- saturday father
+--------------------------------------------------
+
+Analysis for: krull
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- voice of the beast
+- rowan
+- queen
+--------------------------------------------------
+
+Analysis for: kundun
+Cornell characters: 21
+TMDB matched characters: 8
+Missing characters: 13
+Characters not found in TMDB:
+- general chiang
+- ling rinpoche
+- tibetan woman
+- boy
+- general chiang chin-wu
+- lhamo
+- takster rinpoche
+- man
+- mao tse tung
+- taktra rinpoche
+- tenzin gyatso
+- noble boy
+- kashag member
+--------------------------------------------------
+
+Analysis for: l'avventura
+Cornell characters: 20
+TMDB matched characters: 9
+Missing characters: 11
+Characters not found in TMDB:
+- midwife
+- carabiniere
+- goffredo
+- young sailor
+- marshal
+- father
+- zuria
+- lieutenant
+- woman's voice
+- man's voice
+- old man
+--------------------------------------------------
+
+Analysis for: l.a. confidential
+Cornell characters: 21
+TMDB matched characters: 16
+Missing characters: 5
+Characters not found in TMDB:
+- coates
+- pinker
+- young officer
+- hudgeons
+- operator
+--------------------------------------------------
+
+Analysis for: la battaglia di algeri
+Cornell characters: 16
+TMDB matched characters: 3
+Missing characters: 13
+Characters not found in TMDB:
+- employee
+- ben m'hidi
+- 2nd journalist
+- mourad
+- algerian
+- general
+- sergeant
+- arnaud
+- assistant commissioner
+- hacene
+- kader
+- 3rd journalist
+- soldier
+--------------------------------------------------
+
+Analysis for: lake placid
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: last of the mohicans
+Cornell characters: 12
+TMDB matched characters: 12
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: le grand bleu
+Cornell characters: 14
+TMDB matched characters: 12
+Missing characters: 2
+Characters not found in TMDB:
+- frank
+- lawrence
+--------------------------------------------------
+
+Analysis for: leaving las vegas
+Cornell characters: 6
+TMDB matched characters: 5
+Missing characters: 1
+Characters not found in TMDB:
+- brad
+--------------------------------------------------
+
+Analysis for: legally blonde
+Cornell characters: 19
+TMDB matched characters: 15
+Missing characters: 4
+Characters not found in TMDB:
+- donovan
+- professor donovan
+- fuzzy 2l
+- sarah
+--------------------------------------------------
+
+Analysis for: legend
+Cornell characters: 13
+TMDB matched characters: 1
+Missing characters: 12
+Characters not found in TMDB:
+- ogg
+- jimmy
+- dragon
+- screwball
+- thurgis
+- jenny
+- 1st demon
+- 2nd demon
+- gump
+- lili
+- baron
+- oona
+--------------------------------------------------
+
+Analysis for: leviathan
+Cornell characters: 10
+TMDB matched characters: 5
+Missing characters: 5
+Characters not found in TMDB:
+- willie
+- doc
+- sixpack
+- willie's voice
+- dejesus
+--------------------------------------------------
+
+Analysis for: life as a house
+Cornell characters: 14
+TMDB matched characters: 14
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: little nicky
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- kathy lee
+- angel
+- student
+--------------------------------------------------
+
+Analysis for: lock, stock and two smoking barrels
+Cornell characters: 23
+TMDB matched characters: 21
+Missing characters: 2
+Characters not found in TMDB:
+- willy
+- hatchet
+--------------------------------------------------
+
+Analysis for: logan's run
+Cornell characters: 13
+TMDB matched characters: 11
+Missing characters: 2
+Characters not found in TMDB:
+- receptionist
+- voice
+--------------------------------------------------
+
+Analysis for: lone star
+Cornell characters: 38
+TMDB matched characters: 36
+Missing characters: 2
+Characters not found in TMDB:
+- h.l.
+- zack
+--------------------------------------------------
+
+Analysis for: lord of illusions
+Cornell characters: 18
+TMDB matched characters: 15
+Missing characters: 3
+Characters not found in TMDB:
+- cultists
+- eddison
+- blonde girl
+--------------------------------------------------
+
+Analysis for: lost highway
+Cornell characters: 23
+TMDB matched characters: 16
+Missing characters: 7
+Characters not found in TMDB:
+- captain henderson
+- dr. rogoff
+- mr. eddy
+- claire
+- voice
+- johnny mack
+- alice
+--------------------------------------------------
+
+Analysis for: lost horizon
+Cornell characters: 12
+TMDB matched characters: 6
+Missing characters: 6
+Characters not found in TMDB:
+- clerk
+- gloria
+- assistant secretary
+- barnard
+- sondra
+- high lama
+--------------------------------------------------
+
+Analysis for: lost in translation
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- reception
+- elaine
+- lauren
+--------------------------------------------------
+
+Analysis for: lost souls
+Cornell characters: 17
+TMDB matched characters: 13
+Missing characters: 4
+Characters not found in TMDB:
+- defense attorney
+- mr. silberman
+- father frank
+- viznick
+--------------------------------------------------
+
+Analysis for: love & basketball
+Cornell characters: 13
+TMDB matched characters: 11
+Missing characters: 2
+Characters not found in TMDB:
+- jim
+- coach miller
+--------------------------------------------------
+
+Analysis for: léon
+Cornell characters: 10
+TMDB matched characters: 6
+Missing characters: 4
+Characters not found in TMDB:
+- the boss
+- rinaldi
+- jenny
+- cop
+--------------------------------------------------
+
+Analysis for: made
+Cornell characters: 22
+TMDB matched characters: 11
+Missing characters: 11
+Characters not found in TMDB:
+- hispanic kid
+- cynthia
+- arthur
+- bellman
+- audrey
+- horny guy
+- flight attendant
+- screech
+- jess
+- leo
+- bianca
+--------------------------------------------------
+
+Analysis for: magnolia
+Cornell characters: 36
+TMDB matched characters: 28
+Missing characters: 8
+Characters not found in TMDB:
+- paula
+- young pharmacy kid
+- jim kurring
+- gwen
+- clauida
+- female voice
+- middle aged guy
+- kligman
+--------------------------------------------------
+
+Analysis for: malcolm x
+Cornell characters: 26
+TMDB matched characters: 19
+Missing characters: 7
+Characters not found in TMDB:
+- gregory
+- bembry
+- voice of malcolm x
+- malcolm's voice
+- benjamin 2x
+- plainclothes
+- sister lucille
+--------------------------------------------------
+
+Analysis for: man on fire
+Cornell characters: 17
+TMDB matched characters: 11
+Missing characters: 6
+Characters not found in TMDB:
+- tazinari
+- rosanna
+- pinta
+- voice
+- guardian two
+- creasy's voice
+--------------------------------------------------
+
+Analysis for: man on the moon
+Cornell characters: 17
+TMDB matched characters: 13
+Missing characters: 4
+Characters not found in TMDB:
+- booker
+- old doctor
+- tony clifton
+- sad sack
+--------------------------------------------------
+
+Analysis for: manhunter
+Cornell characters: 22
+TMDB matched characters: 15
+Missing characters: 7
+Characters not found in TMDB:
+- dr. chilton
+- graduate student
+- chester
+- voice
+- grampa
+- red dragon
+- officer
+--------------------------------------------------
+
+Analysis for: maniac
+Cornell characters: 11
+TMDB matched characters: 4
+Missing characters: 7
+Characters not found in TMDB:
+- 2nd embalmer
+- goof
+- collins
+- woman
+- 2nd officer
+- jones
+- 1st embalmer
+--------------------------------------------------
+
+Analysis for: marty
+Cornell characters: 17
+TMDB matched characters: 10
+Missing characters: 7
+Characters not found in TMDB:
+- second irish woman
+- mrs. pilletti
+- girl
+- mrs. fusari
+- dr. keegan
+- thomas
+- first irish woman
+--------------------------------------------------
+
+Analysis for: mash
+Cornell characters: 19
+TMDB matched characters: 7
+Missing characters: 12
+Characters not found in TMDB:
+- medical corps sergeant
+- lieutenant dish
+- ugly john
+- spearchucker
+- radar
+- lieutenant scorch
+- hot lips
+- me lay
+- painless
+- general hammond
+- second medical corps sergeant
+- dago red
+--------------------------------------------------
+
+Analysis for: meet joe black
+Cornell characters: 14
+TMDB matched characters: 8
+Missing characters: 6
+Characters not found in TMDB:
+- coyle
+- young man
+- voice
+- ambrose
+- easter
+- bontecou
+--------------------------------------------------
+
+Analysis for: meet john doe
+Cornell characters: 18
+TMDB matched characters: 9
+Missing characters: 9
+Characters not found in TMDB:
+- pop
+- tall chap
+- mrs. mitchell
+- secretary
+- joe
+- bert's wife
+- sourpuss
+- mother
+- d. b.
+--------------------------------------------------
+
+Analysis for: memento
+Cornell characters: 11
+TMDB matched characters: 9
+Missing characters: 2
+Characters not found in TMDB:
+- nan
+- leonard							  *
+--------------------------------------------------
+
+Analysis for: men in black
+Cornell characters: 14
+TMDB matched characters: 7
+Missing characters: 7
+Characters not found in TMDB:
+- yaz
+- zed's voice
+- cowan
+- ins leader
+- leonard
+- president
+- wallace
+--------------------------------------------------
+
+Analysis for: metro
+Cornell characters: 14
+TMDB matched characters: 8
+Missing characters: 6
+Characters not found in TMDB:
+- officer #1
+- raymond
+- jail guard #2
+- dave
+- baffert
+- track announcer
+--------------------------------------------------
+
+Analysis for: miami vice
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- crockett
+--------------------------------------------------
+
+Analysis for: midnight cowboy
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- veteran
+- marine
+- ratso
+--------------------------------------------------
+
+Analysis for: midnight express
+Cornell characters: 12
+TMDB matched characters: 7
+Missing characters: 5
+Characters not found in TMDB:
+- driver
+- father
+- davis
+- bell
+- ziat
+--------------------------------------------------
+
+Analysis for: mighty morphin power rangers
+Cornell characters: 16
+TMDB matched characters: 5
+Missing characters: 11
+Characters not found in TMDB:
+- dulcea
+- zedd
+- kimberly
+- tommy
+- mordant
+- bulk
+- goldar
+- skull
+- ivan
+- alpha 5
+- zordon
+--------------------------------------------------
+
+Analysis for: mimic
+Cornell characters: 8
+TMDB matched characters: 7
+Missing characters: 1
+Characters not found in TMDB:
+- siri
+--------------------------------------------------
+
+Analysis for: minority report
+Cornell characters: 20
+TMDB matched characters: 18
+Missing characters: 2
+Characters not found in TMDB:
+- anderton's voice
+- dr. eddie
+--------------------------------------------------
+
+Analysis for: misery
+Cornell characters: 7
+TMDB matched characters: 7
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: mission: impossible
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- anatoly
+- guard randall
+- kasimov
+--------------------------------------------------
+
+Analysis for: mission: impossible ii
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- billy's voice
+--------------------------------------------------
+
+Analysis for: mobsters
+Cornell characters: 18
+TMDB matched characters: 9
+Missing characters: 9
+Characters not found in TMDB:
+- detective mullavey
+- boo-boo hoff
+- maranzano
+- charlie
+- gay orlova
+- capone
+- bobby clowes
+- manager
+- mad dog coll
+--------------------------------------------------
+
+Analysis for: monkeybone
+Cornell characters: 13
+TMDB matched characters: 11
+Missing characters: 2
+Characters not found in TMDB:
+- bull
+- stu-bone
+--------------------------------------------------
+
+Analysis for: monty python and the holy grail
+Cornell characters: 28
+TMDB matched characters: 10
+Missing characters: 18
+Characters not found in TMDB:
+- soothsayer
+- old woman
+- all
+- other knights
+- black knight
+- prince
+- god
+- large man
+- first villager
+- father
+- tall knight
+- first guard
+- cart driver
+- singers
+- bridgekeeper
+- concorde
+- soldier
+- bedevere
+--------------------------------------------------
+
+Analysis for: moonstruck
+Cornell characters: 19
+TMDB matched characters: 14
+Missing characters: 5
+Characters not found in TMDB:
+- gregory
+- perry's voice
+- rose's voice
+- ava
+- mr. johnny
+--------------------------------------------------
+
+Analysis for: mr. deeds goes to town
+Cornell characters: 31
+TMDB matched characters: 20
+Missing characters: 11
+Characters not found in TMDB:
+- agent
+- first brother
+- von holler
+- butlers
+- henaberry
+- 2nd bodyguard
+- longfellow's voice
+- voice
+- applicant
+- mac
+- svenson
+--------------------------------------------------
+
+Analysis for: mr. smith goes to washington
+Cornell characters: 22
+TMDB matched characters: 18
+Missing characters: 4
+Characters not found in TMDB:
+- voices
+- spieler
+- chairman
+- hubert
+--------------------------------------------------
+
+Analysis for: mrs brown
+Cornell characters: 14
+TMDB matched characters: 12
+Missing characters: 2
+Characters not found in TMDB:
+- dean wellselly
+- bertie's valet
+--------------------------------------------------
+
+Analysis for: mulholland dr.
+Cornell characters: 22
+TMDB matched characters: 10
+Missing characters: 12
+Characters not found in TMDB:
+- billy
+- dark-haired woman
+- jimmy
+- detective harry mcknight
+- hotel manager
+- herb
+- laney
+- detective neal domgaard
+- sergeant baxter
+- middle-aged woman
+- paramount guard
+- dan
+--------------------------------------------------
+
+Analysis for: mumford
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- judge otto
+- mrs. cook
+- gilroy
+- cook
+- correctional officer
+--------------------------------------------------
+
+Analysis for: my girl
+Cornell characters: 12
+TMDB matched characters: 7
+Missing characters: 5
+Characters not found in TMDB:
+- judy
+- dr welty
+- thomas j
+- mr. bixler
+- boy#2
+--------------------------------------------------
+
+Analysis for: my girl 2
+Cornell characters: 17
+TMDB matched characters: 17
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: my mother dreams the satan's disciples in new york
+Cornell characters: 5
+TMDB matched characters: 2
+Missing characters: 3
+Characters not found in TMDB:
+- disciple prospect
+- marika
+- mischa
+--------------------------------------------------
+
+Analysis for: mystery men
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- mother
+--------------------------------------------------
+
+Analysis for: mystery of the wax museum
+Cornell characters: 14
+TMDB matched characters: 8
+Missing characters: 6
+Characters not found in TMDB:
+- sparrow
+- first detective
+- man
+- captain
+- worth
+- golatily
+--------------------------------------------------
+
+Analysis for: napoleon
+Cornell characters: 28
+TMDB matched characters: 12
+Missing characters: 16
+Characters not found in TMDB:
+- bertrand
+- marie-louise
+- picart
+- varlac
+- major fidon
+- belliard
+- didier
+- general kutusov
+- duroc
+- russian gentleman
+- orderly
+- narrator
+- joseph
+- montesquiou
+- schwarzenburg
+- corsican
+--------------------------------------------------
+
+Analysis for: nashville
+Cornell characters: 24
+TMDB matched characters: 19
+Missing characters: 5
+Characters not found in TMDB:
+- joan
+- woman's voice
+- mother
+- manager
+- nurse
+--------------------------------------------------
+
+Analysis for: natural born killers
+Cornell characters: 15
+TMDB matched characters: 8
+Missing characters: 7
+Characters not found in TMDB:
+- pitney
+- grace
+- scott
+- movie mickey
+- norman
+- movie mallory
+- simon
+--------------------------------------------------
+
+Analysis for: never been kissed
+Cornell characters: 14
+TMDB matched characters: 13
+Missing characters: 1
+Characters not found in TMDB:
+- kristen
+--------------------------------------------------
+
+Analysis for: new nightmare
+Cornell characters: 13
+TMDB matched characters: 6
+Missing characters: 7
+Characters not found in TMDB:
+- dr. hefner
+- john saxon
+- bob
+- host
+- highway patrolman #1
+- robert englund
+- man's voice
+--------------------------------------------------
+
+Analysis for: next friday
+Cornell characters: 16
+TMDB matched characters: 12
+Missing characters: 4
+Characters not found in TMDB:
+- baby'd
+- ezal
+- delivery guy
+- miss ho kym
+--------------------------------------------------
+
+Analysis for: nick of time
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- cabbie
+- eleanor grant
+- huey
+--------------------------------------------------
+
+Analysis for: ninotchka
+Cornell characters: 19
+TMDB matched characters: 15
+Missing characters: 4
+Characters not found in TMDB:
+- ninotchka
+- père mathieu
+- general savitzky
+- all three russians
+--------------------------------------------------
+
+Analysis for: nixon
+Cornell characters: 28
+TMDB matched characters: 23
+Missing characters: 5
+Characters not found in TMDB:
+- cushman
+- buzhardt
+- young woman
+- mitch
+- student 2
+--------------------------------------------------
+
+Analysis for: no country for old men
+Cornell characters: 18
+TMDB matched characters: 14
+Missing characters: 4
+Characters not found in TMDB:
+- molly
+- man at chair
+- roscoe
+- mother
+--------------------------------------------------
+
+Analysis for: nothing but a man
+Cornell characters: 19
+TMDB matched characters: 12
+Missing characters: 7
+Characters not found in TMDB:
+- bartender
+- joe
+- driver
+- reverend dawson
+- supervisor
+- white
+- johnson
+--------------------------------------------------
+
+Analysis for: notting hill
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- tarquin
+- male lead
+- ritz man
+- james
+- karen
+--------------------------------------------------
+
+Analysis for: nuovo cinema paradiso
+Cornell characters: 6
+TMDB matched characters: 5
+Missing characters: 1
+Characters not found in TMDB:
+- priest
+--------------------------------------------------
+
+Analysis for: nurse betty
+Cornell characters: 22
+TMDB matched characters: 18
+Missing characters: 4
+Characters not found in TMDB:
+- duane
+- elizabeth
+- george
+- jerrold
+--------------------------------------------------
+
+Analysis for: o brother, where art thou?
+Cornell characters: 15
+TMDB matched characters: 9
+Missing characters: 6
+Characters not found in TMDB:
+- middle
+- proprietor
+- big dan
+- eckard
+- spivey
+- youngest
+--------------------------------------------------
+
+Analysis for: on the waterfront
+Cornell characters: 19
+TMDB matched characters: 11
+Missing characters: 8
+Characters not found in TMDB:
+- pop
+- counsel
+- joey
+- skins
+- mutt
+- jackie
+- nolan
+- j.p.
+--------------------------------------------------
+
+Analysis for: one flew over the cuckoo's nest
+Cornell characters: 21
+TMDB matched characters: 18
+Missing characters: 3
+Characters not found in TMDB:
+- patients
+- big nurse
+- miss pilbow
+--------------------------------------------------
+
+Analysis for: orgy of the dead
+Cornell characters: 6
+TMDB matched characters: 3
+Missing characters: 3
+Characters not found in TMDB:
+- criswell
+- princess of darkness
+- the wolf man
+--------------------------------------------------
+
+Analysis for: out of sight
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- chino
+- maid
+- chino's voice
+--------------------------------------------------
+
+Analysis for: panic room
+Cornell characters: 8
+TMDB matched characters: 7
+Missing characters: 1
+Characters not found in TMDB:
+- cop 1
+--------------------------------------------------
+
+Analysis for: panther
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- bobby seale
+- beefy cop
+- roy
+--------------------------------------------------
+
+Analysis for: pearl harbor
+Cornell characters: 21
+TMDB matched characters: 16
+Missing characters: 5
+Characters not found in TMDB:
+- colonel
+- general marshall
+- mechanic
+- british air commander
+- coma
+--------------------------------------------------
+
+Analysis for: peggy sue got married
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- mr. kelcher
+- mrs. kelcher
+- dolores
+--------------------------------------------------
+
+Analysis for: pet sematary
+Cornell characters: 5
+TMDB matched characters: 5
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: pet sematary ii
+Cornell characters: 8
+TMDB matched characters: 6
+Missing characters: 2
+Characters not found in TMDB:
+- geoff
+- rudman
+--------------------------------------------------
+
+Analysis for: philadelphia
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- mrs. finley
+- intern
+- young man
+--------------------------------------------------
+
+Analysis for: pirates of the caribbean
+Cornell characters: 12
+TMDB matched characters: 4
+Missing characters: 8
+Characters not found in TMDB:
+- murtogg
+- elizabeth
+- mullroy
+- will
+- anamaria
+- norrington
+- pintel
+- swann
+--------------------------------------------------
+
+Analysis for: pitch black
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- audrey
+- imam
+- zeke
+--------------------------------------------------
+
+Analysis for: platinum blonde
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- stew
+- anne
+- miss wilson
+--------------------------------------------------
+
+Analysis for: platoon
+Cornell characters: 13
+TMDB matched characters: 13
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: pleasantville
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- biff
+- bob
+- dick van dyke
+--------------------------------------------------
+
+Analysis for: point break
+Cornell characters: 7
+TMDB matched characters: 3
+Missing characters: 4
+Characters not found in TMDB:
+- harp
+- fiberglass
+- woman
+- tyler
+--------------------------------------------------
+
+Analysis for: predator
+Cornell characters: 6
+TMDB matched characters: 5
+Missing characters: 1
+Characters not found in TMDB:
+- philips
+--------------------------------------------------
+
+Analysis for: pretty woman
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- maid
+- mr. thomas
+- kross
+--------------------------------------------------
+
+Analysis for: psycho
+Cornell characters: 14
+TMDB matched characters: 7
+Missing characters: 7
+Characters not found in TMDB:
+- lowery's voice
+- norman's voice
+- mary
+- car dealer
+- woman's voice
+- patrolman
+- caroline's voice
+--------------------------------------------------
+
+Analysis for: punch-drunk love
+Cornell characters: 18
+TMDB matched characters: 11
+Missing characters: 7
+Characters not found in TMDB:
+- operator girl
+- latisha
+- sexy voice
+- karen
+- voice
+- check out girl
+- operator voice
+--------------------------------------------------
+
+Analysis for: quantum project
+Cornell characters: 3
+TMDB matched characters: 3
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: quills
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- libertine
+- the marquis
+- ingenue
+- monsieur prouix
+- delbenè
+--------------------------------------------------
+
+Analysis for: raging bull
+Cornell characters: 12
+TMDB matched characters: 10
+Missing characters: 2
+Characters not found in TMDB:
+- tommy
+- 1st deputy
+--------------------------------------------------
+
+Analysis for: rambling rose
+Cornell characters: 12
+TMDB matched characters: 4
+Missing characters: 8
+Characters not found in TMDB:
+- waski
+- brother
+- daddy
+- dr. winton
+- buddy
+- mother
+- willcox hillyer
+- doll
+--------------------------------------------------
+
+Analysis for: rambo: first blood part ii
+Cornell characters: 9
+TMDB matched characters: 3
+Missing characters: 6
+Characters not found in TMDB:
+- tech
+- de fravio
+- kirkhill
+- doyle
+- prisoner
+- brewer
+--------------------------------------------------
+
+Analysis for: rear window
+Cornell characters: 10
+TMDB matched characters: 5
+Missing characters: 5
+Characters not found in TMDB:
+- gunnison
+- mrs. doyle
+- police
+- bryce
+- baby sitter
+--------------------------------------------------
+
+Analysis for: rebel without a cause
+Cornell characters: 15
+TMDB matched characters: 10
+Missing characters: 5
+Characters not found in TMDB:
+- chief
+- father
+- mother
+- plato
+- negro woman
+--------------------------------------------------
+
+Analysis for: reindeer games
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- teen clerk
+- jack bangs
+- young governor
+- zook
+--------------------------------------------------
+
+Analysis for: reservoir dogs
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- nice guy eddie
+- mr. blonde
+- mr. white
+- mr. orange
+--------------------------------------------------
+
+Analysis for: rko 281
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- joseph cotton
+- shop owner
+- mank
+--------------------------------------------------
+
+Analysis for: rocky
+Cornell characters: 21
+TMDB matched characters: 13
+Missing characters: 8
+Characters not found in TMDB:
+- cleaner
+- trainer
+- reporter #2
+- rocky
+- adrian
+- chipped tooth
+- commentator #2
+- commentator #1
+--------------------------------------------------
+
+Analysis for: romeo and juliet
+Cornell characters: 14
+TMDB matched characters: 10
+Missing characters: 4
+Characters not found in TMDB:
+- crusty
+- gloria
+- father lawrence
+- balthasar
+--------------------------------------------------
+
+Analysis for: ronin
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- swede
+- edvard
+- francois
+- tony
+- phone voice
+--------------------------------------------------
+
+Analysis for: roughshod
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- mrs. wyatt
+--------------------------------------------------
+
+Analysis for: route 9
+Cornell characters: 12
+TMDB matched characters: 5
+Missing characters: 7
+Characters not found in TMDB:
+- clerk
+- willie
+- martin
+- earl's mother
+- salesperson
+- cliff
+- wallace
+--------------------------------------------------
+
+Analysis for: runaway bride
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- mrs. trout
+--------------------------------------------------
+
+Analysis for: rush hour
+Cornell characters: 11
+TMDB matched characters: 7
+Missing characters: 4
+Characters not found in TMDB:
+- lafontaine
+- sang's voice
+- soon young
+- man's voice
+--------------------------------------------------
+
+Analysis for: rush hour 2
+Cornell characters: 13
+TMDB matched characters: 6
+Missing characters: 7
+Characters not found in TMDB:
+- special agent sterling
+- master fu
+- superindendent chin
+- craps dealer
+- captain diel
+- steven reign
+- doorman #1
+--------------------------------------------------
+
+Analysis for: salt of the earth
+Cornell characters: 14
+TMDB matched characters: 10
+Missing characters: 4
+Characters not found in TMDB:
+- sebastian
+- ramón
+- luis
+- estella
+--------------------------------------------------
+
+Analysis for: saving private ryan
+Cornell characters: 9
+TMDB matched characters: 6
+Missing characters: 3
+Characters not found in TMDB:
+- sarge
+- colonel anderson
+- supply sergeant
+--------------------------------------------------
+
+Analysis for: say anything...
+Cornell characters: 20
+TMDB matched characters: 12
+Missing characters: 8
+Characters not found in TMDB:
+- miss evans
+- valhere
+- dc
+- agent sims
+- mrs court
+- assistant
+- jim
+- guy 2
+--------------------------------------------------
+
+Analysis for: scary movie 2
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- professor
+- hanson
+- father mcfeely
+--------------------------------------------------
+
+Analysis for: schindler's list
+Cornell characters: 13
+TMDB matched characters: 10
+Missing characters: 3
+Characters not found in TMDB:
+- lowenstein
+- rasch
+- brinnlitz guy 2
+--------------------------------------------------
+
+Analysis for: scream
+Cornell characters: 16
+TMDB matched characters: 5
+Missing characters: 11
+Characters not found in TMDB:
+- tatum
+- girl #1
+- casey
+- father
+- girl #2
+- mr. prescott
+- man
+- mother
+- kenny
+- sheriff burke
+- stu
+--------------------------------------------------
+
+Analysis for: scream 2
+Cornell characters: 23
+TMDB matched characters: 16
+Missing characters: 7
+Characters not found in TMDB:
+- on screen
+- girl on phone
+- captain tyler
+- voice
+- in the theater
+- sheriff
+- man's voice
+--------------------------------------------------
+
+Analysis for: scream 3
+Cornell characters: 16
+TMDB matched characters: 12
+Missing characters: 4
+Characters not found in TMDB:
+- ben
+- voice
+- detective kincaid
+- woman
+--------------------------------------------------
+
+Analysis for: serial mom
+Cornell characters: 18
+TMDB matched characters: 9
+Missing characters: 9
+Characters not found in TMDB:
+- det. bradford
+- det. moore
+- dad
+- young man
+- mrs. sterner
+- mr. nazlerod
+- mr. sterner
+- mrs. ackerman
+- mom
+--------------------------------------------------
+
+Analysis for: sex, lies, and videotape
+Cornell characters: 9
+TMDB matched characters: 4
+Missing characters: 5
+Characters not found in TMDB:
+- cytnhia
+- secretary
+- mr. miller
+- doctor
+- voice on phone
+--------------------------------------------------
+
+Analysis for: shakespeare in love
+Cornell characters: 22
+TMDB matched characters: 15
+Missing characters: 7
+Characters not found in TMDB:
+- nol as benvolio
+- ralph as nurse
+- viola as thomas
+- urchin
+- sir robert
+- viola as romeo
+- sam as juliet
+--------------------------------------------------
+
+Analysis for: shallow grave
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- salesman
+--------------------------------------------------
+
+Analysis for: shampoo
+Cornell characters: 23
+TMDB matched characters: 17
+Missing characters: 6
+Characters not found in TMDB:
+- jill's voice
+- operator's voice
+- george's voice
+- leonard
+- tina's voice
+- felicia's voice
+--------------------------------------------------
+
+Analysis for: shivers
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- mr. spergazzi
+- st. luc
+- super
+--------------------------------------------------
+
+Analysis for: shock treatment
+Cornell characters: 23
+TMDB matched characters: 15
+Missing characters: 8
+Characters not found in TMDB:
+- brad and janet
+- kids
+- dad
+- oliver and betty
+- teacher
+- trio
+- mac
+- mom
+--------------------------------------------------
+
+Analysis for: sideways
+Cornell characters: 12
+TMDB matched characters: 10
+Missing characters: 2
+Characters not found in TMDB:
+- man
+- phyllis
+--------------------------------------------------
+
+Analysis for: signs
+Cornell characters: 7
+TMDB matched characters: 6
+Missing characters: 1
+Characters not found in TMDB:
+- crewcut guy
+--------------------------------------------------
+
+Analysis for: silver bullet
+Cornell characters: 5
+TMDB matched characters: 4
+Missing characters: 1
+Characters not found in TMDB:
+- uncle al
+--------------------------------------------------
+
+Analysis for: silverado
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- mal
+- sheriff cobb
+- proprietor
+--------------------------------------------------
+
+Analysis for: sister act
+Cornell characters: 18
+TMDB matched characters: 7
+Missing characters: 11
+Characters not found in TMDB:
+- o'hara
+- mary patrick
+- mary robert
+- ronelles
+- charlene
+- tate
+- christy
+- mike
+- lawanda
+- mary lazarus
+- mary patrick and robert
+--------------------------------------------------
+
+Analysis for: slash
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- gene
+--------------------------------------------------
+
+Analysis for: sleepless in seattle
+Cornell characters: 19
+TMDB matched characters: 13
+Missing characters: 6
+Characters not found in TMDB:
+- wheedle
+- laurie
+- tom
+- lulu
+- seth
+- det. wheedle
+--------------------------------------------------
+
+Analysis for: sleepy hollow
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- lady van tassel
+- philipse
+- third man
+- father steenwyck
+- old crone
+--------------------------------------------------
+
+Analysis for: sling blade
+Cornell characters: 16
+TMDB matched characters: 16
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: slither
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- butcher
+--------------------------------------------------
+
+Analysis for: smoke
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- auggie
+- young man
+- rashid
+--------------------------------------------------
+
+Analysis for: smokey and the bandit
+Cornell characters: 12
+TMDB matched characters: 2
+Missing characters: 10
+Characters not found in TMDB:
+- kyle
+- owner
+- dickey
+- voice one
+- voice
+- voice two
+- waitress
+- kate
+- clayton
+- bandit
+--------------------------------------------------
+
+Analysis for: smokin' aces
+Cornell characters: 19
+TMDB matched characters: 16
+Missing characters: 3
+Characters not found in TMDB:
+- security supervisor
+- casino employee
+- dr. gill
+--------------------------------------------------
+
+Analysis for: snow falling on cedars
+Cornell characters: 16
+TMDB matched characters: 12
+Missing characters: 4
+Characters not found in TMDB:
+- gillanders
+- kabuo
+- maples
+- susan marie
+--------------------------------------------------
+
+Analysis for: solaris
+Cornell characters: 5
+TMDB matched characters: 4
+Missing characters: 1
+Characters not found in TMDB:
+- sartorius
+--------------------------------------------------
+
+Analysis for: soldier
+Cornell characters: 2
+TMDB matched characters: 2
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: some like it hot
+Cornell characters: 17
+TMDB matched characters: 14
+Missing characters: 3
+Characters not found in TMDB:
+- mozarella
+- first henchman
+- bienstock
+--------------------------------------------------
+
+Analysis for: someone to watch over me
+Cornell characters: 12
+TMDB matched characters: 10
+Missing characters: 2
+Characters not found in TMDB:
+- pretty young thing
+- giddings
+--------------------------------------------------
+
+Analysis for: sounder
+Cornell characters: 17
+TMDB matched characters: 8
+Missing characters: 9
+Characters not found in TMDB:
+- david lee
+- sheriff young
+- mr howard
+- nathan lee
+- preacher
+- josie mae
+- mrs boatwright
+- camille's voice over
+- david's images
+--------------------------------------------------
+
+Analysis for: south park: bigger longer & uncut
+Cornell characters: 24
+TMDB matched characters: 7
+Missing characters: 17
+Characters not found in TMDB:
+- canadian minister of movies
+- the mole
+- terrance
+- phillip
+- doctor pangloss
+- satan
+- stan's mother
+- kyle's mother
+- principal victoria
+- voice
+- mr. mackey
+- president
+- big thing
+- saddam hussein
+- wendy
+- cartman's mother
+- mr. garrison
+--------------------------------------------------
+
+Analysis for: spacejacked
+Cornell characters: 13
+TMDB matched characters: 5
+Missing characters: 8
+Characters not found in TMDB:
+- carlo
+- delbert
+- wayne
+- anna
+- pilot
+- warren
+- reynolds
+- monica
+--------------------------------------------------
+
+Analysis for: sphere
+Cornell characters: 12
+TMDB matched characters: 7
+Missing characters: 5
+Characters not found in TMDB:
+- beth
+- arthur
+- wife
+- navy seaman
+- officer
+--------------------------------------------------
+
+Analysis for: spider-man
+Cornell characters: 18
+TMDB matched characters: 6
+Missing characters: 12
+Characters not found in TMDB:
+- adele
+- liz
+- hogan
+- nurse voice
+- marotta
+- letterman
+- thorkel
+- spider-man
+- ock
+- leiber
+- reiss
+- roz
+--------------------------------------------------
+
+Analysis for: stalag 17
+Cornell characters: 16
+TMDB matched characters: 8
+Missing characters: 8
+Characters not found in TMDB:
+- p.o.w.s
+- cookie
+- schultz
+- german lieutenant
+- hoffy
+- blondie
+- stosh
+- von scherbach
+--------------------------------------------------
+
+Analysis for: star trek iii: the search for spock
+Cornell characters: 20
+TMDB matched characters: 14
+Missing characters: 6
+Characters not found in TMDB:
+- woman
+- scotty
+- lieutenant
+- torg
+- comm officer
+- 1st officer
+--------------------------------------------------
+
+Analysis for: star trek iv: the voyage home
+Cornell characters: 22
+TMDB matched characters: 17
+Missing characters: 5
+Characters not found in TMDB:
+- bones
+- morrow
+- council president
+- science officer
+- the boy
+--------------------------------------------------
+
+Analysis for: star trek v: the final frontier
+Cornell characters: 14
+TMDB matched characters: 7
+Missing characters: 7
+Characters not found in TMDB:
+- rider
+- being
+- commanders image
+- chekov's image
+- scotty
+- klaa +++$+++
+- vixis +++$+++
+--------------------------------------------------
+
+Analysis for: star trek vi: the undiscovered country
+Cornell characters: 17
+TMDB matched characters: 10
+Missing characters: 7
+Characters not found in TMDB:
+- martia's voice
+- bones
+- scotty
+- admiral donald
+- science officer
+- communications officer
+- lt. saavik
+--------------------------------------------------
+
+Analysis for: star trek: first contact
+Cornell characters: 16
+TMDB matched characters: 9
+Missing characters: 7
+Characters not found in TMDB:
+- scrimm
+- geordi's voice
+- ruby
+- riker's com voice
+- doctor
+- woman's voice
+- picard's voice
+--------------------------------------------------
+
+Analysis for: star trek: generations
+Cornell characters: 15
+TMDB matched characters: 13
+Missing characters: 2
+Characters not found in TMDB:
+- scotty
+- la forge
+--------------------------------------------------
+
+Analysis for: star trek: insurrection
+Cornell characters: 19
+TMDB matched characters: 14
+Missing characters: 5
+Characters not found in TMDB:
+- picard's com voice
+- riker's com voice
+- worf's com voice
+- nara
+- la forge
+--------------------------------------------------
+
+Analysis for: star trek: nemesis
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- b-9
+- head
+- reman officer
+- janeway +++$+++
+--------------------------------------------------
+
+Analysis for: star trek: the motion picture
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- scott's intercom voice
+- scott
+- "ilia"
+--------------------------------------------------
+
+Analysis for: star trek: the wrath of khan
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- scotty's voice
+- bones
+- scotty
+- spock's voice
+- uhura's voice
+--------------------------------------------------
+
+Analysis for: star wars
+Cornell characters: 12
+TMDB matched characters: 6
+Missing characters: 6
+Characters not found in TMDB:
+- ben
+- blue leader
+- threepio
+- controller
+- intercom voice
+- biggs
+--------------------------------------------------
+
+Analysis for: star wars: episode vi - return of the jedi
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- boushh
+- threepio
+- ninedenine
+--------------------------------------------------
+
+Analysis for: star wars: the empire strikes back
+Cornell characters: 16
+TMDB matched characters: 10
+Missing characters: 6
+Characters not found in TMDB:
+- ben
+- piett
+- deck sergeant
+- threepio
+- admiral piett
+- chewie
+--------------------------------------------------
+
+Analysis for: starman
+Cornell characters: 15
+TMDB matched characters: 8
+Missing characters: 7
+Characters not found in TMDB:
+- lyman
+- clerk
+- star man
+- woman
+- benny
+- teenager
+- security guard
+--------------------------------------------------
+
+Analysis for: starship troopers
+Cornell characters: 17
+TMDB matched characters: 11
+Missing characters: 6
+Characters not found in TMDB:
+- sugar watkins
+- intelligence officer
+- c.o.
+- father
+- psych officer
+- rodger young
+--------------------------------------------------
+
+Analysis for: state and main
+Cornell characters: 22
+TMDB matched characters: 18
+Missing characters: 4
+Characters not found in TMDB:
+- joe
+- costume designer
+- morris
+- first a.d.
+--------------------------------------------------
+
+Analysis for: stepmom
+Cornell characters: 9
+TMDB matched characters: 5
+Missing characters: 4
+Characters not found in TMDB:
+- dr. sweikert
+- rachel
+- annabelle
+- stacy
+--------------------------------------------------
+
+Analysis for: storytelling
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- mr scott
+- pam
+- conan
+- editor
+--------------------------------------------------
+
+Analysis for: strange days
+Cornell characters: 11
+TMDB matched characters: 10
+Missing characters: 1
+Characters not found in TMDB:
+- tran
+--------------------------------------------------
+
+Analysis for: stranglehold
+Cornell characters: 11
+TMDB matched characters: 4
+Missing characters: 7
+Characters not found in TMDB:
+- sen. filmore
+- burns
+- olo
+- stockton
+- myers
+- alonzo
+- smitty
+--------------------------------------------------
+
+Analysis for: sugar & spice
+Cornell characters: 11
+TMDB matched characters: 9
+Missing characters: 2
+Characters not found in TMDB:
+- loan officer
+- dim sum charlie
+--------------------------------------------------
+
+Analysis for: sunset blvd.
+Cornell characters: 13
+TMDB matched characters: 4
+Missing characters: 9
+Characters not found in TMDB:
+- no. 1
+- artie
+- 1st assistant
+- head of homicide
+- demille
+- morino
+- holmby hills captain
+- de mille
+- sheldrake
+--------------------------------------------------
+
+Analysis for: supergirl
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- linda
+- elderly man
+- george
+- kara
+--------------------------------------------------
+
+Analysis for: superman
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- jonathan
+- albert
+- martha
+- first elder
+- superman
+--------------------------------------------------
+
+Analysis for: superman ii
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- lex
+- second controller
+- second reporter
+- superman
+- first controller
+--------------------------------------------------
+
+Analysis for: superman iii
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- superman
+- gus
+--------------------------------------------------
+
+Analysis for: superman iv: the quest for peace
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- superman
+--------------------------------------------------
+
+Analysis for: suspect zero
+Cornell characters: 15
+TMDB matched characters: 5
+Missing characters: 10
+Characters not found in TMDB:
+- foreman
+- daitz
+- eaglefoot
+- duncan
+- low
+- salinas
+- janita
+- murman
+- candy
+- koessler
+--------------------------------------------------
+
+Analysis for: sweet smell of success
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- wife
+- weldon
+- senator
+- captain
+- d'angelo
+--------------------------------------------------
+
+Analysis for: taking sides
+Cornell characters: 10
+TMDB matched characters: 10
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: taxi driver
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- dough-boy
+- secret service man
+- andy
+- man in business suit
+--------------------------------------------------
+
+Analysis for: terminator 2: judgment day
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- video silberman
+- video sarah
+- reese
+--------------------------------------------------
+
+Analysis for: the abyss
+Cornell characters: 9
+TMDB matched characters: 4
+Missing characters: 5
+Characters not found in TMDB:
+- bud
+- catfish
+- hippy
+- sonny
+- one night
+--------------------------------------------------
+
+Analysis for: the adventures of buckaroo banzai across the 8th dimension
+Cornell characters: 16
+TMDB matched characters: 12
+Missing characters: 4
+Characters not found in TMDB:
+- john bigbooté
+- prof. hikita
+- buckaroo banzai on tv
+- national security man
+--------------------------------------------------
+
+Analysis for: the adventures of ford fairlane
+Cornell characters: 13
+TMDB matched characters: 12
+Missing characters: 1
+Characters not found in TMDB:
+- band
+--------------------------------------------------
+
+Analysis for: the anniversary party
+Cornell characters: 16
+TMDB matched characters: 16
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the apartment
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- bud
+- mrs. dreyfuss
+- vanderhof
+- tommy
+- moffett
+--------------------------------------------------
+
+Analysis for: the atomic submarine
+Cornell characters: 8
+TMDB matched characters: 4
+Missing characters: 4
+Characters not found in TMDB:
+- sir ian
+- dave
+- reef
+- griff
+--------------------------------------------------
+
+Analysis for: the beach
+Cornell characters: 6
+TMDB matched characters: 4
+Missing characters: 2
+Characters not found in TMDB:
+- francoise
+- etienne
+--------------------------------------------------
+
+Analysis for: the believer
+Cornell characters: 25
+TMDB matched characters: 19
+Missing characters: 6
+Characters not found in TMDB:
+- linda's voice
+- father
+- 12-year-old danny
+- voice
+- carla's voice
+- mrs. moebius
+--------------------------------------------------
+
+Analysis for: the big lebowski
+Cornell characters: 21
+TMDB matched characters: 12
+Missing characters: 9
+Characters not found in TMDB:
+- da fino
+- young man
+- blond man
+- woo
+- voice
+- man
+- dieter
+- donnelly
+- allan
+--------------------------------------------------
+
+Analysis for: the birds
+Cornell characters: 16
+TMDB matched characters: 13
+Missing characters: 3
+Characters not found in TMDB:
+- man
+- woman
+- harry's voice
+--------------------------------------------------
+
+Analysis for: the black dahlia
+Cornell characters: 2
+TMDB matched characters: 2
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the body snatcher
+Cornell characters: 8
+TMDB matched characters: 7
+Missing characters: 1
+Characters not found in TMDB:
+- mrs. macbride
+--------------------------------------------------
+
+Analysis for: the boondock saints
+Cornell characters: 17
+TMDB matched characters: 13
+Missing characters: 4
+Characters not found in TMDB:
+- connor
+- mom
+- both
+- roz
+--------------------------------------------------
+
+Analysis for: the bourne identity
+Cornell characters: 18
+TMDB matched characters: 13
+Missing characters: 5
+Characters not found in TMDB:
+- research tech #1
+- the man
+- manager/phone
+- operator/phone +++$+++
+- woman clerk
+--------------------------------------------------
+
+Analysis for: the bourne supremacy
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- nevins/phone
+- pamela/phone
+--------------------------------------------------
+
+Analysis for: the bridges of madison county
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- gladys
+- eleanor
+- reporter
+- henry
+- mother
+--------------------------------------------------
+
+Analysis for: the butterfly effect
+Cornell characters: 15
+TMDB matched characters: 14
+Missing characters: 1
+Characters not found in TMDB:
+- mr. miller
+--------------------------------------------------
+
+Analysis for: the cell
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the cider house rules
+Cornell characters: 19
+TMDB matched characters: 18
+Missing characters: 1
+Characters not found in TMDB:
+- mr. rose
+--------------------------------------------------
+
+Analysis for: the crow
+Cornell characters: 15
+TMDB matched characters: 1
+Missing characters: 14
+Characters not found in TMDB:
+- annabella
+- mickey
+- skull cowboy
+- darla
+- grange
+- funboy
+- top dollar
+- albrecht
+- torres
+- elly
+- gideon
+- lao
+- t-bird
+- tin-tin
+--------------------------------------------------
+
+Analysis for: the crow: salvation
+Cornell characters: 11
+TMDB matched characters: 11
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the crying game
+Cornell characters: 10
+TMDB matched characters: 10
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the curse of the cat people
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- mrs. farren
+--------------------------------------------------
+
+Analysis for: the day the earth stood still
+Cornell characters: 11
+TMDB matched characters: 5
+Missing characters: 6
+Characters not found in TMDB:
+- jeweler
+- major
+- lieutenant
+- hilda
+- harley
+- bobby
+--------------------------------------------------
+
+Analysis for: the deer hunter
+Cornell characters: 16
+TMDB matched characters: 6
+Missing characters: 10
+Characters not found in TMDB:
+- colonel
+- vince
+- vet 2
+- albert
+- armand
+- lieutenant
+- nick
+- vet 1
+- sal
+- merle
+--------------------------------------------------
+
+Analysis for: the devil and daniel webster
+Cornell characters: 15
+TMDB matched characters: 13
+Missing characters: 2
+Characters not found in TMDB:
+- old farmhand's voice
+- the woman
+--------------------------------------------------
+
+Analysis for: the elephant man
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- kath
+- owner
+- anne
+- k. hen
+--------------------------------------------------
+
+Analysis for: the english patient
+Cornell characters: 17
+TMDB matched characters: 13
+Missing characters: 4
+Characters not found in TMDB:
+- boy
+- stuart
+- müller
+- the patient
+--------------------------------------------------
+
+Analysis for: the exorcist
+Cornell characters: 20
+TMDB matched characters: 12
+Missing characters: 8
+Characters not found in TMDB:
+- dr. tanney
+- willie
+- clinic director
+- regan/demon
+- president
+- mrs.karras
+- father dyer
+- cardinal
+--------------------------------------------------
+
+Analysis for: the fabulous baker boys
+Cornell characters: 21
+TMDB matched characters: 10
+Missing characters: 11
+Characters not found in TMDB:
+- bud
+- mr. daniels
+- willie
+- mrs. baker
+- woman
+- tommy
+- nick
+- dr. beasley
+- mrs.  baker
+- helen
+- donna
+--------------------------------------------------
+
+Analysis for: the family man
+Cornell characters: 18
+TMDB matched characters: 16
+Missing characters: 2
+Characters not found in TMDB:
+- lori
+- mrs. peterson
+--------------------------------------------------
+
+Analysis for: the fantastic four
+Cornell characters: 11
+TMDB matched characters: 5
+Missing characters: 6
+Characters not found in TMDB:
+- sue
+- sexy nurse
+- the thing
+- leonard
+- doctor
+- debbie
+--------------------------------------------------
+
+Analysis for: the fifth element
+Cornell characters: 22
+TMDB matched characters: 15
+Missing characters: 7
+Characters not found in TMDB:
+- secretary
+- loc rhod
+- shadow
+- voice
+- mother
+- finger
+- kommander
+--------------------------------------------------
+
+Analysis for: the fisher king
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- leather
+- frank
+- gay bum
+--------------------------------------------------
+
+Analysis for: the french connection
+Cornell characters: 18
+TMDB matched characters: 11
+Missing characters: 7
+Characters not found in TMDB:
+- mutchie
+- black pusher
+- 2nd man
+- jesus
+- desk clerk
+- dancer
+- 1st man
+--------------------------------------------------
+
+Analysis for: the game
+Cornell characters: 16
+TMDB matched characters: 10
+Missing characters: 6
+Characters not found in TMDB:
+- businessman 2
+- hotel manager
+- alan baer
+- girl
+- plump guy
+- maitre d'
+--------------------------------------------------
+
+Analysis for: the getaway
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- slim
+--------------------------------------------------
+
+Analysis for: the ghost and the darkness
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- redbeard
+- middle coolie
+--------------------------------------------------
+
+Analysis for: the godfather
+Cornell characters: 23
+TMDB matched characters: 19
+Missing characters: 4
+Characters not found in TMDB:
+- voice
+- fabrizzio
+- don corleone
+- don tommassino
+--------------------------------------------------
+
+Analysis for: the godfather: part ii
+Cornell characters: 32
+TMDB matched characters: 22
+Missing characters: 10
+Characters not found in TMDB:
+- don corleone
+- senator kane
+- widow
+- klingman
+- fbi man #1
+- don francesco
+- sandra
+- senator geary
+- connie
+- fredo
+--------------------------------------------------
+
+Analysis for: the graduate
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- clerk
+- ben's voice
+- mrs. robinson's voice
+- woman's voice
+- mr. mcquire
+--------------------------------------------------
+
+Analysis for: the grapes of wrath
+Cornell characters: 33
+TMDB matched characters: 25
+Missing characters: 8
+Characters not found in TMDB:
+- second man
+- ruthie's voice
+- ruthie
+- first boy
+- the man
+- winfield's voice
+- grampa
+- blonde girl
+--------------------------------------------------
+
+Analysis for: the grifters
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- simms
+- kaggs
+- manager
+--------------------------------------------------
+
+Analysis for: the haunting
+Cornell characters: 9
+TMDB matched characters: 9
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the hebrew hammer
+Cornell characters: 8
+TMDB matched characters: 8
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the horse whisperer
+Cornell characters: 13
+TMDB matched characters: 10
+Missing characters: 3
+Characters not found in TMDB:
+- david gottschalk
+- rona
+- woman
+--------------------------------------------------
+
+Analysis for: the hudsucker proxy
+Cornell characters: 20
+TMDB matched characters: 13
+Missing characters: 7
+Characters not found in TMDB:
+- ad man #1
+- editor
+- veteran #2
+- addison
+- veteran #1
+- ad man #2
+- intercom
+--------------------------------------------------
+
+Analysis for: the hustler
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- player
+- young man
+--------------------------------------------------
+
+Analysis for: the ice storm
+Cornell characters: 16
+TMDB matched characters: 15
+Missing characters: 1
+Characters not found in TMDB:
+- harold
+--------------------------------------------------
+
+Analysis for: the insider
+Cornell characters: 27
+TMDB matched characters: 18
+Missing characters: 9
+Characters not found in TMDB:
+- lowell's voice
+- the sheikh
+- jim cooper
+- debbie deluca
+- bill robertson's voice
+- the hotel manager's voice
+- liane's voice
+- jim cooper's voice
+- wigand's voice
+--------------------------------------------------
+
+Analysis for: the jacket
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- waitress
+- dr. lorenson
+- tenny
+- dr. gries
+--------------------------------------------------
+
+Analysis for: the leopard man
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- eloise
+- consuelo
+- rosita
+--------------------------------------------------
+
+Analysis for: the life of david gale
+Cornell characters: 27
+TMDB matched characters: 2
+Missing characters: 25
+Characters not found in TMDB:
+- goldmouth
+- jake
+- claude
+- pike
+- slim
+- biscuit
+- bouncer
+- sylvia
+- mama gibson
+- abernathy
+- poker face
+- nurse humphries
+- hoppin' bob
+- wilkins
+- cookie
+- willie
+- spanky
+- yvette
+- dillard
+- daisy
+- mae rose
+- leon
+- blocker
+- ray
+- jangle leg
+--------------------------------------------------
+
+Analysis for: the limey
+Cornell characters: 17
+TMDB matched characters: 12
+Missing characters: 5
+Characters not found in TMDB:
+- supervisor
+- gramms
+- susan
+- fielding
+- feather
+--------------------------------------------------
+
+Analysis for: the lost boys
+Cornell characters: 10
+TMDB matched characters: 10
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the lost son
+Cornell characters: 25
+TMDB matched characters: 8
+Missing characters: 17
+Characters not found in TMDB:
+- moreau
+- butler
+- phil
+- rhian
+- effeminate waiter
+- directory enquiries operator
+- old cowboy
+- man with italian accent
+- man on dais
+- attendant
+- mrs spitz
+- the italian
+- whitney
+- jane
+- mans voice
+- waitress
+- hyatt operator
+--------------------------------------------------
+
+Analysis for: the lost world: jurassic park
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- juttson
+--------------------------------------------------
+
+Analysis for: the magic toyshop
+Cornell characters: 4
+TMDB matched characters: 3
+Missing characters: 1
+Characters not found in TMDB:
+- jonathon
+--------------------------------------------------
+
+Analysis for: the majestic
+Cornell characters: 17
+TMDB matched characters: 8
+Missing characters: 9
+Characters not found in TMDB:
+- pete
+- clyde
+- eldridge
+- fitts
+- old tim
+- saunders
+- mrs. terwilliger
+- lardner
+- super
+--------------------------------------------------
+
+Analysis for: the man in the iron mask
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- pierre
+- michelle
+- man in the iron mask
+- lieutenant
+- phillippe
+--------------------------------------------------
+
+Analysis for: the man who wasn't there
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- young woman
+- young man
+--------------------------------------------------
+
+Analysis for: the matrix
+Cornell characters: 12
+TMDB matched characters: 12
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the messenger
+Cornell characters: 24
+TMDB matched characters: 1
+Missing characters: 23
+Characters not found in TMDB:
+- tremoille
+- bishop
+- d'estivet
+- aulon
+- la hire
+- man
+- dijon
+- xaintrailles
+- maitre maurice
+- yolande
+- beaupere
+- catherine
+- jean midi
+- gilles
+- priest
+- jean le maistre
+- jeanne
+- buck
+- dunois
+- burgundy
+- charles
+- regnault
+- cauchon
+--------------------------------------------------
+
+Analysis for: the mummy
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- ardeth ray
+- warden
+- curator
+--------------------------------------------------
+
+Analysis for: the negotiator
+Cornell characters: 3
+TMDB matched characters: 3
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the night of the hunter
+Cornell characters: 15
+TMDB matched characters: 10
+Missing characters: 5
+Characters not found in TMDB:
+- guard
+- birdie steptoe
+- clary
+- congregation
+- grocer
+--------------------------------------------------
+
+Analysis for: the nightmare before christmas
+Cornell characters: 7
+TMDB matched characters: 3
+Missing characters: 4
+Characters not found in TMDB:
+- evil scientist
+- barrel
+- sally
+- various people
+--------------------------------------------------
+
+Analysis for: the patriot
+Cornell characters: 17
+TMDB matched characters: 10
+Missing characters: 7
+Characters not found in TMDB:
+- continental sergeant
+- marion
+- major halbert
+- rev. oliver
+- robinson
+- tarleton
+- lee
+--------------------------------------------------
+
+Analysis for: the pianist
+Cornell characters: 18
+TMDB matched characters: 12
+Missing characters: 6
+Characters not found in TMDB:
+- jehuda
+- kitten's voice
+- gebczynski
+- michal
+- the german captain
+- puppydog's voice
+--------------------------------------------------
+
+Analysis for: the piano
+Cornell characters: 6
+TMDB matched characters: 6
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the ploughman's lunch
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- charles
+- mr. penfield
+- philip
+--------------------------------------------------
+
+Analysis for: the princess bride
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- man in black
+- the kid
+- buttercup
+--------------------------------------------------
+
+Analysis for: the producers
+Cornell characters: 11
+TMDB matched characters: 5
+Missing characters: 6
+Characters not found in TMDB:
+- bloom and drunk
+- de bris
+- bialystock and bloom
+- lsd
+- general
+- little old lady
+--------------------------------------------------
+
+Analysis for: the relic
+Cornell characters: 13
+TMDB matched characters: 5
+Missing characters: 8
+Characters not found in TMDB:
+- jonathan
+- pendergast
+- henry
+- ippolito
+- larry
+- dr. ziewzic
+- beauregard
+- kawakita
+--------------------------------------------------
+
+Analysis for: the rock
+Cornell characters: 4
+TMDB matched characters: 3
+Missing characters: 1
+Characters not found in TMDB:
+- sanchez
+--------------------------------------------------
+
+Analysis for: the rocky horror picture show
+Cornell characters: 9
+TMDB matched characters: 5
+Missing characters: 4
+Characters not found in TMDB:
+- dr scott
+- frank
+- guests
+- family
+--------------------------------------------------
+
+Analysis for: the salton sea
+Cornell characters: 16
+TMDB matched characters: 13
+Missing characters: 3
+Characters not found in TMDB:
+- tanner
+- trahn
+- danny/tom
+--------------------------------------------------
+
+Analysis for: the searchers
+Cornell characters: 19
+TMDB matched characters: 14
+Missing characters: 5
+Characters not found in TMDB:
+- ben
+- lieutenant
+- officer
+- general
+- keefer
+--------------------------------------------------
+
+Analysis for: the seventh victim
+Cornell characters: 20
+TMDB matched characters: 12
+Missing characters: 8
+Characters not found in TMDB:
+- mr. bruns
+- dr. judd
+- mrs. lowood
+- radeau
+- bruns
+- mrs. cortez
+- mrs. romari
+- mrs. redi
+--------------------------------------------------
+
+Analysis for: the shining
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- halloran
+- dorothy
+- hermie
+--------------------------------------------------
+
+Analysis for: the silence of the lambs
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- dr. danielson
+- mr. gumb
+- dr. lecter
+- mr. yow
+--------------------------------------------------
+
+Analysis for: the sixth sense
+Cornell characters: 7
+TMDB matched characters: 5
+Missing characters: 2
+Characters not found in TMDB:
+- man's voice
+- mr. cunningham
+--------------------------------------------------
+
+Analysis for: the sting
+Cornell characters: 25
+TMDB matched characters: 18
+Missing characters: 7
+Characters not found in TMDB:
+- jimmy
+- black man
+- eirie kid
+- man
+- stranger
+- duff
+- old man
+--------------------------------------------------
+
+Analysis for: the sweet hereafter
+Cornell characters: 16
+TMDB matched characters: 14
+Missing characters: 2
+Characters not found in TMDB:
+- peter
+- alison
+--------------------------------------------------
+
+Analysis for: the talented mr. ripley
+Cornell characters: 11
+TMDB matched characters: 11
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: the terminator
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- mr. miller
+- breen
+--------------------------------------------------
+
+Analysis for: the thin man
+Cornell characters: 19
+TMDB matched characters: 10
+Missing characters: 9
+Characters not found in TMDB:
+- 1st reporter
+- peppler
+- tom
+- andrew
+- mimi
+- dr. walton
+- macaulay
+- jorgensen
+- andy
+--------------------------------------------------
+
+Analysis for: the thing
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- sanchez
+--------------------------------------------------
+
+Analysis for: the third man
+Cornell characters: 15
+TMDB matched characters: 11
+Missing characters: 4
+Characters not found in TMDB:
+- clerk
+- u.s.m.p.
+- woman
+- baron
+--------------------------------------------------
+
+Analysis for: the time machine
+Cornell characters: 13
+TMDB matched characters: 6
+Missing characters: 7
+Characters not found in TMDB:
+- vox kiosk
+- mrs. watchit
+- korus
+- dean fulton
+- overlord
+- philby
+- thin man
+--------------------------------------------------
+
+Analysis for: the truman show
+Cornell characters: 16
+TMDB matched characters: 10
+Missing characters: 6
+Characters not found in TMDB:
+- guard 2
+- guard 1
+- interviewer
+- officer
+- sylvia
+- tyrone
+--------------------------------------------------
+
+Analysis for: the usual suspects
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- rab in
+- voice #2
+- bodi
+- voice
+- voice #1
+--------------------------------------------------
+
+Analysis for: the verdict
+Cornell characters: 22
+TMDB matched characters: 14
+Missing characters: 8
+Characters not found in TMDB:
+- maid
+- kathy
+- towler
+- young lawyer
+- claire
+- voice
+- mary rooney
+- sally
+--------------------------------------------------
+
+Analysis for: the war of the worlds
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- salvador
+- radio voice
+- pastor collins
+- m.p. driver
+- general mann
+--------------------------------------------------
+
+Analysis for: the wedding date
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- woody
+- ed
+- sal
+--------------------------------------------------
+
+Analysis for: the wizard of oz
+Cornell characters: 17
+TMDB matched characters: 9
+Missing characters: 8
+Characters not found in TMDB:
+- professor
+- hunk
+- miss gulch
+- hickory
+- tin man -- scarecrow and dorothy
+- oz's voice
+- aunt em
+- barrister
+--------------------------------------------------
+
+Analysis for: the woodsman
+Cornell characters: 9
+TMDB matched characters: 8
+Missing characters: 1
+Characters not found in TMDB:
+- man
+--------------------------------------------------
+
+Analysis for: the world is not enough
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- doctor greatrex
+- woman
+--------------------------------------------------
+
+Analysis for: the x files
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- cigarette smoking man
+- detective
+- dr. bronschweig
+--------------------------------------------------
+
+Analysis for: thelma & louise
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- trucker
+- patrolman
+- lena
+- sarah
+--------------------------------------------------
+
+Analysis for: there's something about mary
+Cornell characters: 18
+TMDB matched characters: 12
+Missing characters: 6
+Characters not found in TMDB:
+- boss's disabled brother
+- dr. lalonde
+- friend #1
+- detective cavallo
+- mary's dad
+- mary's mom
+--------------------------------------------------
+
+Analysis for: thirteen days
+Cornell characters: 14
+TMDB matched characters: 8
+Missing characters: 6
+Characters not found in TMDB:
+- reston
+- the president
+- general taylor
+- bobby
+- dobrynin
+- admiral anderson
+--------------------------------------------------
+
+Analysis for: three kings
+Cornell characters: 5
+TMDB matched characters: 1
+Missing characters: 4
+Characters not found in TMDB:
+- woods
+- epps
+- jaeger
+- wes
+--------------------------------------------------
+
+Analysis for: thunderheart
+Cornell characters: 11
+TMDB matched characters: 2
+Missing characters: 9
+Characters not found in TMDB:
+- carl
+- yellow bird
+- looks twice
+- cooch
+- radio
+- clear moon
+- dennis
+- tully
+- crow horse
+--------------------------------------------------
+
+Analysis for: thx 1138
+Cornell characters: 10
+TMDB matched characters: 6
+Missing characters: 4
+Characters not found in TMDB:
+- nin
+- voice
+- 2nd voice
+- 1st voice
+--------------------------------------------------
+
+Analysis for: ticker
+Cornell characters: 11
+TMDB matched characters: 7
+Missing characters: 4
+Characters not found in TMDB:
+- dispatcher voice
+- t.j.
+- reilly
+- mary
+--------------------------------------------------
+
+Analysis for: titanic
+Cornell characters: 19
+TMDB matched characters: 17
+Missing characters: 2
+Characters not found in TMDB:
+- hitchins
+- brock
+--------------------------------------------------
+
+Analysis for: to sleep with anger
+Cornell characters: 13
+TMDB matched characters: 9
+Missing characters: 4
+Characters not found in TMDB:
+- mr. baker
+- davis
+- babe brother
+- old john
+--------------------------------------------------
+
+Analysis for: tombstone
+Cornell characters: 20
+TMDB matched characters: 19
+Missing characters: 1
+Characters not found in TMDB:
+- curly bill
+--------------------------------------------------
+
+Analysis for: tomorrow never dies
+Cornell characters: 22
+TMDB matched characters: 8
+Missing characters: 14
+Characters not found in TMDB:
+- captain morton
+- executive secretary
+- yung
+- tanner
+- jenny wu
+- helmsman
+- sidney
+- dominique
+- harmsway
+- captain cheong
+- saunders
+- first officer
+- number three
+- minister johnstone
+--------------------------------------------------
+
+Analysis for: top gun
+Cornell characters: 16
+TMDB matched characters: 11
+Missing characters: 5
+Characters not found in TMDB:
+- chp
+- wizard
+- fungus
+- iceman
+- girl
+--------------------------------------------------
+
+Analysis for: total recall
+Cornell characters: 17
+TMDB matched characters: 8
+Missing characters: 9
+Characters not found in TMDB:
+- richter
+- benny
+- everett
+- george
+- helm
+- johnny
+- edgemar
+- caller
+- dr. lull
+--------------------------------------------------
+
+Analysis for: toy story
+Cornell characters: 12
+TMDB matched characters: 11
+Missing characters: 1
+Characters not found in TMDB:
+- sargent
+--------------------------------------------------
+
+Analysis for: traffic
+Cornell characters: 29
+TMDB matched characters: 21
+Missing characters: 8
+Characters not found in TMDB:
+- marquez
+- special-agent-in-charge
+- a.d.a. kelly
+- clerk
+- carl
+- guard
+- anna
+- sketch
+--------------------------------------------------
+
+Analysis for: trainspotting
+Cornell characters: 14
+TMDB matched characters: 11
+Missing characters: 3
+Characters not found in TMDB:
+- man 1
+- mother
+- gav
+--------------------------------------------------
+
+Analysis for: transatlantic merry-go-round
+Cornell characters: 14
+TMDB matched characters: 9
+Missing characters: 5
+Characters not found in TMDB:
+- ballinger
+- shortie
+- purser
+- steward
+- mary
+--------------------------------------------------
+
+Analysis for: tremors
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- pham van
+- val
+--------------------------------------------------
+
+Analysis for: tron
+Cornell characters: 12
+TMDB matched characters: 6
+Missing characters: 6
+Characters not found in TMDB:
+- tron
+- dumont
+- bit
+- ram
+- mcp
+- yori
+--------------------------------------------------
+
+Analysis for: trouble in paradise
+Cornell characters: 13
+TMDB matched characters: 8
+Missing characters: 5
+Characters not found in TMDB:
+- mariette's voice
+- close shot  gaston
+- butler
+- gaston's voice
+- bolshevik
+--------------------------------------------------
+
+Analysis for: true believer
+Cornell characters: 17
+TMDB matched characters: 9
+Missing characters: 8
+Characters not found in TMDB:
+- badalato
+- gang expert
+- judge
+- fulton
+- stipe
+- ms. gordon
+- connie
+- mrs. esparza
+--------------------------------------------------
+
+Analysis for: true lies
+Cornell characters: 12
+TMDB matched characters: 9
+Missing characters: 3
+Characters not found in TMDB:
+- voice
+- gib
+- malik
+--------------------------------------------------
+
+Analysis for: true romance
+Cornell characters: 23
+TMDB matched characters: 18
+Missing characters: 5
+Characters not found in TMDB:
+- wilson
+- krinkle
+- elvis
+- cliff
+- big d
+--------------------------------------------------
+
+Analysis for: twelve monkeys
+Cornell characters: 14
+TMDB matched characters: 12
+Missing characters: 2
+Characters not found in TMDB:
+- ben
+- dr. mason
+--------------------------------------------------
+
+Analysis for: twin peaks: fire walk with me
+Cornell characters: 30
+TMDB matched characters: 24
+Missing characters: 6
+Characters not found in TMDB:
+- pete
+- bob's voice
+- truman
+- jerry
+- josie
+- jacoby
+--------------------------------------------------
+
+Analysis for: u turn
+Cornell characters: 13
+TMDB matched characters: 11
+Missing characters: 2
+Characters not found in TMDB:
+- sergei
+- woman
+--------------------------------------------------
+
+Analysis for: unbreakable
+Cornell characters: 10
+TMDB matched characters: 4
+Missing characters: 6
+Characters not found in TMDB:
+- man in scrubs
+- jeremy
+- megan
+- ancient secretary
+- business man
+- walkie
+--------------------------------------------------
+
+Analysis for: unforgiven
+Cornell characters: 15
+TMDB matched characters: 12
+Missing characters: 3
+Characters not found in TMDB:
+- little bill
+- the kid
+- ww
+--------------------------------------------------
+
+Analysis for: vampyr
+Cornell characters: 7
+TMDB matched characters: 1
+Missing characters: 6
+Characters not found in TMDB:
+- léone
+- the drawing-room
+- marc
+- the sick-room
+- nikolas
+- nurse
+--------------------------------------------------
+
+Analysis for: vertigo
+Cornell characters: 10
+TMDB matched characters: 4
+Missing characters: 6
+Characters not found in TMDB:
+- manageress
+- midge
+- saleswoman
+- judy
+- doctor
+- elster's voice
+--------------------------------------------------
+
+Analysis for: very bad things
+Cornell characters: 13
+TMDB matched characters: 7
+Missing characters: 6
+Characters not found in TMDB:
+- liz
+- maggie
+- micheal
+- ralph
+- judge tower
+- barry morris
+--------------------------------------------------
+
+Analysis for: viridiana
+Cornell characters: 17
+TMDB matched characters: 10
+Missing characters: 7
+Characters not found in TMDB:
+- leper
+- foreman
+- moncho
+- hobbly
+- pelon
+- peasant
+- lucia
+--------------------------------------------------
+
+Analysis for: virtuosity
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- cox
+- alexiev
+--------------------------------------------------
+
+Analysis for: wag the dog
+Cornell characters: 21
+TMDB matched characters: 14
+Missing characters: 7
+Characters not found in TMDB:
+- johnny green
+- angle
+- second media guy
+- moss
+- mr. young
+- trudy
+- joyce
+--------------------------------------------------
+
+Analysis for: wall street
+Cornell characters: 18
+TMDB matched characters: 14
+Missing characters: 4
+Characters not found in TMDB:
+- dixon
+- blonde
+- lisa
+- marv
+--------------------------------------------------
+
+Analysis for: watchmen
+Cornell characters: 16
+TMDB matched characters: 8
+Missing characters: 8
+Characters not found in TMDB:
+- burns
+- adamson
+- president
+- hyde
+- dr. long
+- schmidt
+- justine
+- dr. manhattan
+--------------------------------------------------
+
+Analysis for: waxwork
+Cornell characters: 12
+TMDB matched characters: 8
+Missing characters: 4
+Characters not found in TMDB:
+- mr lincoln
+- marks mother
+- jonathan
+- mrs webster
+--------------------------------------------------
+
+Analysis for: what lies beneath
+Cornell characters: 10
+TMDB matched characters: 8
+Missing characters: 2
+Characters not found in TMDB:
+- mrs. feur
+- mr. feur
+--------------------------------------------------
+
+Analysis for: what women want
+Cornell characters: 2
+TMDB matched characters: 2
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: white squall
+Cornell characters: 21
+TMDB matched characters: 9
+Missing characters: 12
+Characters not found in TMDB:
+- bill
+- phil
+- skipper
+- all
+- downing
+- john
+- will
+- lawford
+- terry
+- rick
+- george
+- robin
+--------------------------------------------------
+
+Analysis for: who framed roger rabbit
+Cornell characters: 11
+TMDB matched characters: 8
+Missing characters: 3
+Characters not found in TMDB:
+- roger rabbit
+- director
+- earl
+--------------------------------------------------
+
+Analysis for: who's your daddy?
+Cornell characters: 15
+TMDB matched characters: 1
+Missing characters: 14
+Characters not found in TMDB:
+- ted
+- jimmy
+- helen
+- principal merkin
+- zukerman
+- dad
+- tom
+- julie
+- ginger
+- charlie
+- jay
+- christy
+- uncle billy
+- mom
+--------------------------------------------------
+
+Analysis for: wild at heart
+Cornell characters: 22
+TMDB matched characters: 12
+Missing characters: 10
+Characters not found in TMDB:
+- artie
+- caller #1
+- black man
+- beany
+- reporter
+- drop shadow
+- buck
+- erv
+- chet
+- good witch
+--------------------------------------------------
+
+Analysis for: wild things
+Cornell characters: 13
+TMDB matched characters: 13
+Missing characters: 0
+--------------------------------------------------
+
+Analysis for: wild wild west
+Cornell characters: 9
+TMDB matched characters: 1
+Missing characters: 8
+Characters not found in TMDB:
+- miguelito
+- cassandra
+- richards
+- jim
+- grant
+- doyle
+- pemberton
+- walters
+--------------------------------------------------
+
+Analysis for: willow
+Cornell characters: 10
+TMDB matched characters: 9
+Missing characters: 1
+Characters not found in TMDB:
+- teemo
+--------------------------------------------------
+
+Analysis for: witness
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- hochstetler
+- mcelroy
+- local man
+--------------------------------------------------
+
+Analysis for: wonder boys
+Cornell characters: 16
+TMDB matched characters: 10
+Missing characters: 6
+Characters not found in TMDB:
+- sara's voice
+- goatee kid
+- greenhut
+- hank
+- vernon hardapple
+- walter's voice
+--------------------------------------------------
+
+Analysis for: x-men
+Cornell characters: 9
+TMDB matched characters: 7
+Missing characters: 2
+Characters not found in TMDB:
+- kelly
+- sabretooth
+--------------------------------------------------
+
+Analysis for: xxx
+Cornell characters: 11
+TMDB matched characters: 6
+Missing characters: 5
+Characters not found in TMDB:
+- sky
+- petra
+- kid
+- slovo
+- sam tannick
+--------------------------------------------------
+
+Analysis for: young frankenstein
+Cornell characters: 14
+TMDB matched characters: 4
+Missing characters: 10
+Characters not found in TMDB:
+- anastasia
+- old violinist
+- freddy
+- burgomeister
+- herr falkstein
+- frau blucher
+- monster
+- cornelius waldman
+- carlson
+- maitre d'
+--------------------------------------------------
+
+Analysis for: zulu dawn
+Cornell characters: 10
+TMDB matched characters: 7
+Missing characters: 3
+Characters not found in TMDB:
+- stuart smith
+- boy-pullen
+- norris-newman
+--------------------------------------------------

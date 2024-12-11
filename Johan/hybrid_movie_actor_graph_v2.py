@@ -112,9 +112,10 @@ def plot_actor_movie_hybrid(cast_df, top_n=20):
                fontsize=14, loc='upper right', bbox_to_anchor=(0.98, 1))
 
     plt.axis('off')
-    plt.tight_layout()
-    plt.savefig("Figures/actor_movie_communities.png", dpi=300, bbox_inches='tight')
-    plt.close()
+    # plt.tight_layout()
+    # plt.savefig("Figures/actor_movie_communities.png", dpi=300, bbox_inches='tight')
+    # plt.close()
+    plt.show()
 
     # Exporting community data to a table
     community_data = []
@@ -124,8 +125,8 @@ def plot_actor_movie_hybrid(cast_df, top_n=20):
 
     community_df = pd.DataFrame(community_data).sort_values(['CommunityID', 'MoviesCount'], ascending=[True, False])
     community_df_latex = community_df.to_latex(index=False, float_format="%.0f")
-    with open("Tables/actor_communities.tex", "w") as f:
-        f.write(community_df_latex)
+    # with open("Tables/actor_communities.tex", "w") as f:
+    #     f.write(community_df_latex)
 
 
 if __name__ == "__main__":

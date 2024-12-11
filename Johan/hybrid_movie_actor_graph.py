@@ -108,13 +108,13 @@ def plot_actor_network(cast_df, top_n=20, show_title=True):
     # Increase font sizes and make them bold
     actor_labels = {node: f"{node}\n({G.nodes[node]['movie_count']} movies)" for node in actor_nodes}
     movie_labels = {node: node for node in movie_nodes}
-    nx.draw_networkx_labels(G, pos, actor_labels, font_size=25, font_weight='bold')
-    nx.draw_networkx_labels(G, pos, movie_labels, font_size=14, font_weight='bold')
+    nx.draw_networkx_labels(G, pos, actor_labels, font_size=16, font_weight='bold')
+    nx.draw_networkx_labels(G, pos, movie_labels, font_size=8, font_weight='bold')
     
     # Show or hide titles based on show_title parameter
     if show_title:
-        plt.suptitle("Actor-Movie Collaboration Network", fontsize=24, y=0.97, fontweight='bold')
-        plt.title("Top 20 Most Frequent Actors and Their Movie Connections", fontsize=18, y=0.94, pad=20, fontweight='bold')
+        plt.suptitle("Actor-Movie Collaboration Network", fontsize=24, y=0.98, fontweight='bold')
+        plt.title("Top 20 Most Frequent Actors and Their Movie Connections", fontsize=18, y=0.92, pad=20, fontweight='bold')
     
     # Legend handles
     actor_patch = mpatches.Patch(color='lightblue', label='Actors')
@@ -127,16 +127,17 @@ def plot_actor_network(cast_df, top_n=20, show_title=True):
     # Increase legend visibility: larger font, bold, frame
     legend = plt.legend(handles=[actor_patch, movie_patch, low_degree_node, high_degree_node],
                         loc='upper right', bbox_to_anchor=(0.98, 1),
-                        prop={'size':24, 'weight':'bold'},
+                        prop={'size':12, 'weight':'bold'},
                         frameon=True, fancybox=True, framealpha=1, edgecolor='black')
     
     
     plt.axis('off')
-    plt.tight_layout()
+    # plt.tight_layout()
     
     # Save figure
-    plt.savefig("Figures/actor_movie_collaboration_network.png", dpi=600, bbox_inches='tight')
-    plt.close()
+    # plt.savefig("Figures/actor_movie_collaboration_network.png", dpi=600, bbox_inches='tight')
+    # plt.close()
+    plt.show()
 
 
 if __name__ == "__main__":
@@ -144,4 +145,4 @@ if __name__ == "__main__":
     file_path = r"Data/movie_casts_sample.csv"
     cast_df = pd.read_csv(file_path)
     # Example call:
-    plot_actor_network(cast_df, top_n=10, show_title=False)
+    plot_actor_network(cast_df, top_n=10, show_title=True)
